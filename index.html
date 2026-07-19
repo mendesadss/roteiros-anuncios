@@ -193,8 +193,10 @@
 
     <div id="sync-sem-token">
       <p style="margin-top:10px">Pra marcacao de gravado valer em todo aparelho (e o Claude enxergar), cole aqui um <b>token do GitHub</b> com permissao de escrita neste repositorio.</p>
-      <input class="sync" id="tok" type="password" placeholder="github_pat_..." style="min-height:auto;padding:11px 12px" autocomplete="off">
+      <input class="sync" id="tok" type="password" placeholder="Toque em Colar, ou cole aqui o github_pat_..." style="min-height:auto;padding:11px 12px" autocomplete="off">
       <div class="acoes">
+        <button class="bt" id="tok-colar">Colar</button>
+        <button class="bt" id="tok-ver">Mostrar</button>
         <button class="bt prim" id="tok-salvar">Conectar</button>
         <a class="bt" href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener" style="text-decoration:none;display:inline-block">Gerar token</a>
       </div>
@@ -482,6 +484,28 @@ function msg(t, ok){
   const m = document.getElementById('sync-msg');
   if (m){ m.textContent = t; m.style.color = ok ? 'var(--verde-claro)' : '#C97B7B'; }
 }
+document.getElementById('tok-colar').addEventListener('click', () => {
+  const campo = document.getElementById('tok');
+  if (!navigator.clipboard || !navigator.clipboard.readText){
+    campo.focus();
+    return msg('Este navegador nao deixa colar por botao. Toque no campo e segure pra colar.', false);
+  }
+  navigator.clipboard.readText().then(t => {
+    const v = (t || '').trim();
+    if (!v) return msg('Area de transferencia vazia. Copie o token de novo.', false);
+    campo.value = v;
+    msg('Colado: ' + v.slice(0,12) + '... (' + v.length + ' caracteres). Agora toque em Conectar.', true);
+  }).catch(() => {
+    campo.focus();
+    msg('O navegador bloqueou a colagem automatica. Toque no campo e segure pra colar.', false);
+  });
+});
+document.getElementById('tok-ver').addEventListener('click', e => {
+  const campo = document.getElementById('tok');
+  const escondido = campo.type === 'password';
+  campo.type = escondido ? 'text' : 'password';
+  e.target.textContent = escondido ? 'Esconder' : 'Mostrar';
+});
 document.getElementById('tok-salvar').addEventListener('click', () => {
   const v = document.getElementById('tok').value;
   if (!v.trim()) return msg('Cole o token', false);
