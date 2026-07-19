@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B0B0B">
+<title>Roteiros de Anúncio, Global Brand</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+  :root{
+    --preto:#0B0B0B; --grafite:#141414; --card:#181818; --linha:#262626;
+    --branco:#F5F5F5; --cinza:#8C8C8C; --verde:#008060; --verde-claro:#5FD08A; --verde-escuro:#00553F;
+    --azul:#4A9EDB;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--preto);color:var(--branco);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding-bottom:80px}
+  .wrap{max-width:980px;margin:0 auto;padding:0 20px}
+
+  header{border-bottom:1px solid var(--linha);background:linear-gradient(180deg,#0B0B0B 0%,#101010 100%);padding:36px 0 26px}
+  .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--verde-claro);font-weight:700;margin-bottom:12px}
+  h1{font-size:clamp(26px,5vw,40px);line-height:1.08;font-weight:800;letter-spacing:-.02em;margin-bottom:12px}
+  h1 span{color:var(--verde-claro)}
+  .sub{color:var(--cinza);font-size:15px;max-width:700px}
+  .sub b{color:var(--branco)}
+
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .stat{background:var(--card);border:1px solid var(--linha);border-radius:10px;padding:12px 16px;min-width:110px;flex:1}
+  .stat .n{font-size:22px;font-weight:800;letter-spacing:-.02em}
+  .stat .n.verde{color:var(--verde-claro)}
+  .stat .l{font-size:11px;color:var(--cinza);text-transform:uppercase;letter-spacing:.08em;margin-top:2px}
+  .progresso{margin-top:16px}
+  .barra{height:6px;background:var(--linha);border-radius:99px;overflow:hidden}
+  .barra i{display:block;height:100%;width:0;background:var(--verde);transition:width .3s ease}
+  .progresso p{font-size:12px;color:var(--cinza);margin-top:8px}
+  .progresso p b{color:var(--verde-claro)}
+
+  .abas{position:sticky;top:0;z-index:30;background:rgba(11,11,11,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--linha)}
+  .abas-row{display:flex;gap:4px;overflow-x:auto;padding:10px 0;scrollbar-width:none}
+  .abas-row::-webkit-scrollbar{display:none}
+  .aba{background:transparent;border:1px solid transparent;color:var(--cinza);border-radius:8px;padding:9px 15px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:all .15s}
+  .aba:hover{color:var(--branco)}
+  .aba.on{background:var(--verde);color:#fff}
+  .aba .c{font-size:11px;opacity:.75;margin-left:5px;font-weight:600}
+
+  .controles{padding:12px 0 0}
+  .ctrl-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+  .busca{flex:1;min-width:170px;background:var(--card);border:1px solid var(--linha);color:var(--branco);border-radius:8px;padding:9px 12px;font-size:13px;font-family:inherit}
+  .busca:focus{outline:none;border-color:var(--verde)}
+  .busca::placeholder{color:#5a5a5a}
+  .chip{background:var(--card);border:1px solid var(--linha);color:var(--cinza);border-radius:99px;padding:7px 13px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s;white-space:nowrap}
+  .chip:hover{border-color:#3a3a3a;color:var(--branco)}
+  .chip.on{background:var(--verde);border-color:var(--verde);color:#fff}
+
+  .card{display:flex;gap:14px;background:var(--card);border:1px solid var(--linha);border-left:3px solid var(--verde);border-radius:10px;padding:16px 18px;margin-bottom:10px;transition:border-color .15s,opacity .18s,transform .18s}
+  .card.split{border-left-color:var(--azul)}
+  .card.narrado{border-left-color:#B08D3F}
+  .card:hover{border-color:#333}
+  .card.feito{opacity:.4}
+  .card.feito .gancho{text-decoration:line-through;text-decoration-color:var(--verde)}
+
+  .chk{position:relative;flex-shrink:0;padding-top:2px}
+  .chk input{appearance:none;width:22px;height:22px;border:2px solid #3a3a3a;border-radius:6px;background:transparent;cursor:pointer;transition:all .15s}
+  .chk input:hover{border-color:var(--verde-claro)}
+  .chk input:checked{background:var(--verde);border-color:var(--verde)}
+  .chk input:checked::after{content:"";position:absolute;left:7px;top:5px;width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+
+  .body{flex:1;min-width:0}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+  .tag{font-size:10px;text-transform:uppercase;letter-spacing:.09em;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--linha);color:var(--cinza)}
+  .tag.lote{color:var(--verde-claro);border-color:rgba(95,208,138,.35)}
+  .tag.dur{color:#fff;border-color:#3a3a3a;background:#242424}
+  .tag.cod{background:var(--verde-escuro);color:#fff;border-color:var(--verde-escuro)}
+  .titulo{font-size:17px;font-weight:800;letter-spacing:-.01em;margin-bottom:7px;cursor:pointer}
+  .titulo:hover{color:var(--verde-claro)}
+  .gancho{font-size:15px;line-height:1.5;color:#D8D8D8;margin-bottom:8px;cursor:pointer}
+  .gancho:hover{color:var(--verde-claro)}
+  .rodape{display:flex;flex-wrap:wrap;gap:10px;font-size:11px;color:#666;align-items:center}
+  .rodape .tec{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#5a5a5a}
+
+  .abre{display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none;color:var(--verde-claro);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;margin-top:4px;padding:4px 0}
+  .abre:hover{color:#8FE3AF}
+  .abre .seta{display:inline-block;transition:transform .2s;font-size:10px}
+  .card.aberto .abre .seta{transform:rotate(90deg)}
+  .corpo{display:none;margin-top:12px;padding:16px 18px;background:#101010;border:1px solid var(--linha);border-radius:9px}
+  .card.aberto .corpo{display:block}
+  .bloco{margin-bottom:16px}
+  .bloco:last-child{margin-bottom:0}
+  .bloco .rot{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--verde-claro);font-weight:700;margin-bottom:6px}
+  .bloco .txt{font-size:15px;line-height:1.7;white-space:pre-wrap;color:#DCDCDC}
+  .bloco ul{list-style:none;padding:0}
+  .bloco li{font-size:14px;line-height:1.55;color:#C4C4C4;padding:6px 0 6px 16px;border-left:2px solid #2a2a2a;margin-bottom:5px}
+  .info{font-size:12px;color:#7a7a7a;line-height:1.55;margin-top:4px}
+  .info b{color:#a8a8a8}
+
+  .cena{border:1px solid #232323;border-radius:8px;padding:12px 14px;margin-bottom:9px;background:#141414}
+  .cena .top{display:flex;gap:8px;align-items:center;margin-bottom:7px;flex-wrap:wrap}
+  .cena .n{font-size:10px;font-weight:800;background:var(--verde-escuro);color:#fff;border-radius:5px;padding:2px 7px}
+  .cena .tela{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:var(--verde-claro);font-weight:700}
+  .cena .tempo{font-size:10px;color:#666;font-family:ui-monospace,monospace}
+  .cena .fala{font-size:15px;line-height:1.6;color:#E4E4E4;margin-bottom:7px}
+  .cena .dir{font-size:12px;color:#7a7a7a;line-height:1.5;padding-top:7px;border-top:1px solid #202020}
+  .cena .prompt{font-size:11px;color:#6f6f6f;line-height:1.5;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#0d0d0d;border:1px solid #1f1f1f;border-radius:6px;padding:9px 11px;margin-top:7px;white-space:pre-wrap}
+
+  .acoes{display:flex;gap:7px;margin-top:11px;flex-wrap:wrap}
+  .bt{background:transparent;border:1px solid var(--linha);color:var(--cinza);border-radius:7px;padding:6px 12px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s}
+  .bt:hover{border-color:var(--verde);color:var(--verde-claro)}
+  .bt.prim{border-color:var(--verde);color:var(--verde-claro)}
+  .bt.prim:hover{background:var(--verde);color:#fff}
+
+  .grav{position:fixed;inset:0;background:#000;z-index:100;display:none;flex-direction:column}
+  .grav.on{display:flex}
+  .grav-top{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid #1c1c1c;flex-shrink:0;gap:10px}
+  .grav-top .t{font-size:13px;color:var(--verde-claro);font-weight:700;text-transform:uppercase;letter-spacing:.1em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .grav-fechar{background:transparent;border:1px solid #333;color:#999;border-radius:8px;padding:8px 14px;font-size:14px;cursor:pointer;font-family:inherit;flex-shrink:0}
+  .grav-corpo{flex:1;overflow-y:auto;padding:34px 26px 120px;-webkit-overflow-scrolling:touch}
+  .grav-hook{font-size:clamp(25px,5vw,38px);line-height:1.28;font-weight:800;color:var(--verde-claro);margin-bottom:30px;max-width:900px;letter-spacing:-.01em}
+  .grav-texto{font-size:clamp(20px,3.4vw,28px);line-height:1.62;white-space:pre-wrap;max-width:900px;color:#EDEDED}
+  .grav-cta{margin-top:30px;padding-top:20px;border-top:1px solid #1c1c1c;font-size:clamp(19px,3.2vw,26px);color:#BDBDBD;max-width:900px;line-height:1.55}
+  .grav-cena{margin-bottom:28px;max-width:900px}
+  .grav-cena .rot{font-size:13px;text-transform:uppercase;letter-spacing:.14em;color:var(--verde-claro);font-weight:700;margin-bottom:8px}
+  .grav-fonte{position:fixed;bottom:20px;right:20px;display:flex;gap:8px}
+  .grav-fonte button{width:46px;height:46px;border-radius:50%;background:#1a1a1a;border:1px solid #333;color:#ccc;font-size:18px;cursor:pointer;font-family:inherit;font-weight:700}
+
+  .copiado{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--verde);color:#fff;padding:10px 20px;border-radius:99px;font-size:13px;font-weight:600;opacity:0;pointer-events:none;transition:all .2s;z-index:200}
+  .copiado.on{opacity:1;transform:translateX(-50%) translateY(0)}
+  .vazio{text-align:center;color:var(--cinza);padding:60px 20px;font-size:14px;line-height:1.7}
+
+  .nota{background:var(--grafite);border:1px solid var(--linha);border-radius:10px;padding:18px 20px;margin:22px 0;font-size:14px;color:#c4c4c4}
+  .nota b{color:var(--branco)}
+  .nota .t{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--verde-claro);font-weight:700;margin-bottom:8px}
+  .sync{width:100%;background:#0e0e0e;border:1px solid var(--linha);color:#9a9a9a;border-radius:8px;padding:12px;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-top:12px;resize:vertical;min-height:90px}
+  footer{border-top:1px solid var(--linha);margin-top:50px;padding-top:24px;font-size:12px;color:#5a5a5a}
+  .reset{background:transparent;border:1px solid var(--linha);color:#666;border-radius:8px;padding:7px 13px;font-size:12px;cursor:pointer;font-family:inherit}
+  .reset:hover{border-color:#8a2b2b;color:#c46b6b}
+  @media(max-width:600px){.stat{min-width:calc(50% - 5px)}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">@mendes.adss · Global Brand · Meta Ads</div>
+    <h1>Roteiros de Anúncio<br><span id="h-sub">carregando...</span></h1>
+    <p class="sub" id="h-obj"></p>
+
+    <div class="stats">
+      <div class="stat"><div class="n" id="s-falta">0</div><div class="l">Falta gravar</div></div>
+      <div class="stat"><div class="n verde" id="s-feitos">0</div><div class="l">Já gravados</div></div>
+      <div class="stat"><div class="n" id="s-fala">0</div><div class="l">Fala</div></div>
+      <div class="stat"><div class="n" id="s-cena">0</div><div class="l">Com cenas</div></div>
+    </div>
+    <div class="progresso">
+      <div class="barra"><i id="barra"></i></div>
+      <p><b id="p-pct">0%</b> gravado</p>
+    </div>
+  </div>
+</header>
+
+<div class="abas">
+  <div class="wrap">
+    <div class="abas-row">
+      <button class="aba on" data-aba="fala">Fala <span class="c" id="c-fala"></span></button>
+      <button class="aba" data-aba="split">Split-screen <span class="c" id="c-split"></span></button>
+      <button class="aba" data-aba="narrado">Narrados <span class="c" id="c-narrado"></span></button>
+      <button class="aba" data-aba="arquivo">Arquivo <span class="c" id="c-arquivo"></span></button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="controles">
+    <div class="ctrl-row"><input class="busca" id="busca" placeholder="Buscar por gancho, título ou tema..."></div>
+    <div class="ctrl-row" id="filtros"></div>
+  </div>
+
+  <div id="lista"><div class="vazio">Carregando...</div></div>
+
+  <div class="nota" id="box-sync" style="display:none">
+    <div class="t">Sincronizar com o Claude</div>
+    <p>Copia o bloco abaixo e manda no chat falando <b>"arquiva esses anúncios"</b>. Eu marco no dados.json e fica igual em qualquer aparelho.</p>
+    <textarea class="sync" id="sync-txt" readonly></textarea>
+    <div class="acoes">
+      <button class="bt prim" id="sync-copy">Copiar lista</button>
+      <button class="reset" id="reset">Zerar checkboxes</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Roteiros de Anúncio, Global Brand · <span id="f-atualizado"></span></p>
+    <p style="margin-top:6px">A marcação de gravado fica salva neste aparelho. Use "Sincronizar" pra tornar permanente.</p>
+    <p style="margin-top:10px"><button class="reset" id="abrir-sync">Sincronizar / Zerar</button></p>
+  </footer>
+</div>
+
+<div class="grav" id="grav">
+  <div class="grav-top">
+    <div class="t" id="grav-titulo"></div>
+    <button class="grav-fechar" id="grav-fechar">Fechar</button>
+  </div>
+  <div class="grav-corpo" id="grav-corpo"></div>
+  <div class="grav-fonte">
+    <button id="fonte-menos">A-</button>
+    <button id="fonte-mais">A+</button>
+  </div>
+</div>
+
+<div class="copiado" id="toast">Copiado</div>
+
+<script>
+const KEY = 'gb_ads_gravados_v1';
+const FKEY = 'gb_ads_fonte';
+let feitos = {};
+try { feitos = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e){ feitos = {}; }
+const salvar = () => { try { localStorage.setItem(KEY, JSON.stringify(feitos)); } catch(e){} };
+
+let D = null, aba = 'fala', filtro = 'todos', busca = '';
+const abertos = new Set();
+
+const esc = s => (s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function toast(m){ const t=document.getElementById('toast'); t.textContent=m; t.classList.add('on'); setTimeout(()=>t.classList.remove('on'),1400); }
+function copiar(txt,m){ navigator.clipboard.writeText(txt).then(()=>toast(m||'Copiado')).catch(()=>toast('Não deu pra copiar')); }
+
+function textoRoteiro(r){
+  let t = r.titulo + (r.duracao ? '\n[' + r.duracao + ']' : '') + '\n\n';
+  if (r.cenas){
+    r.cenas.forEach(c => {
+      t += 'CENA ' + c.n + (c.tempo ? ' (' + c.tempo + ')' : '') + (c.tela ? ' · ' + c.tela : '') + '\n';
+      t += c.fala + '\n';
+      if (c.cena) t += '[cena: ' + c.cena + ']\n';
+      t += '\n';
+    });
+  } else {
+    t += 'GANCHO\n' + r.gancho + '\n\n';
+    if (r.variacoes) t += 'VARIAÇÕES DE GANCHO\n' + r.variacoes.map(v => '- ' + v).join('\n') + '\n\n';
+    if (r.corpo) t += 'CORPO\n' + r.corpo + '\n\n';
+    t += 'CTA\n' + r.cta + '\n';
+  }
+  return t.trim();
+}
+function textoPrompts(r){
+  return (r.cenas||[]).filter(c=>c.prompt).map(c => 'Cena ' + c.n + ':\n' + c.prompt).join('\n\n');
+}
+
+function bate(r){
+  if (filtro !== 'todos' && r.lote !== filtro) return false;
+  if (!busca) return true;
+  const blob = [r.titulo, r.gancho, r.corpo, r.cta, r.lote, r.formato, r.angulo,
+    (r.variacoes||[]).join(' '), (r.cenas||[]).map(c=>c.fala+' '+(c.tela||'')).join(' ')].join(' ').toLowerCase();
+  return blob.includes(busca);
+}
+
+function card(r){
+  const marcado = !!feitos[r.id];
+  const aberto = abertos.has(r.id);
+  let corpo = '';
+
+  if (r.cenas){
+    corpo = r.cenas.map(c =>
+      '<div class="cena"><div class="top"><span class="n">CENA ' + c.n + '</span>' +
+      (c.tempo ? '<span class="tempo">' + esc(c.tempo) + '</span>' : '') +
+      (c.tela ? '<span class="tela">' + esc(c.tela) + '</span>' : '') + '</div>' +
+      '<div class="fala">' + esc(c.fala) + '</div>' +
+      (c.cena ? '<div class="dir"><b>Cena:</b> ' + esc(c.cena) + '</div>' : '') +
+      (c.prompt ? '<div class="prompt">' + esc(c.prompt) + '</div>' : '') +
+      '</div>'
+    ).join('');
+  } else {
+    corpo =
+      '<div class="bloco"><div class="rot">Gancho (0 a 3s)</div><div class="txt">' + esc(r.gancho) + '</div></div>' +
+      (r.variacoes ? '<div class="bloco"><div class="rot">Variações de gancho</div><ul>' + r.variacoes.map(v=>'<li>'+esc(v)+'</li>').join('') + '</ul></div>' : '') +
+      (r.corpo ? '<div class="bloco"><div class="rot">Corpo</div><div class="txt">' + esc(r.corpo) + '</div></div>' : '') +
+      '<div class="bloco"><div class="rot">CTA</div><div class="txt">' + esc(r.cta) + '</div></div>' +
+      ((r.angulo || r.cenario || r.legenda || r.visual) ?
+        '<div class="bloco"><div class="rot">Direção</div><div class="info">' +
+        (r.angulo ? '<b>Ângulo:</b> ' + esc(r.angulo) + '<br>' : '') +
+        (r.cenario ? '<b>Cenário:</b> ' + esc(r.cenario) + '<br>' : '') +
+        (r.legenda ? '<b>Legenda queimada:</b> ' + esc(r.legenda) + '<br>' : '') +
+        (r.visual ? '<b>Visual:</b> ' + esc(r.visual) : '') + '</div></div>' : '');
+  }
+
+  return '<div class="card ' + r.grupo + (marcado?' feito':'') + (aberto?' aberto':'') + '" data-id="' + r.id + '">' +
+    '<label class="chk"><input type="checkbox" ' + (marcado?'checked':'') + '></label>' +
+    '<div class="body"><div class="meta">' +
+      '<span class="tag lote">' + esc(r.lote) + '</span>' +
+      (r.duracao ? '<span class="tag dur">' + esc(r.duracao) + '</span>' : '') +
+      (r.codigo ? '<span class="tag cod">' + esc(r.codigo) + '</span>' : '') +
+      (r.formato ? '<span class="tag">' + esc(r.formato) + '</span>' : '') +
+    '</div>' +
+    '<div class="titulo" data-abre="' + r.id + '">' + esc(r.titulo) + '</div>' +
+    '<div class="gancho" data-abre="' + r.id + '">' + esc(r.gancho) + '</div>' +
+    (r.cenas ? '<div class="rodape"><span class="tec">' + r.cenas.length + ' cenas</span></div>' : '') +
+    '<div class="abre" data-abre="' + r.id + '"><span class="seta">▶</span>' + (aberto ? 'Fechar roteiro' : 'Ver roteiro completo') + '</div>' +
+    '<div class="corpo">' + corpo + '</div>' +
+    '<div class="acoes">' +
+      '<button class="bt prim" data-grav="' + r.id + '">Modo Gravação</button>' +
+      '<button class="bt" data-full="' + r.id + '">Copiar roteiro</button>' +
+      '<button class="bt" data-copy="' + esc(r.gancho) + '">Copiar gancho</button>' +
+      (r.grupo === 'split' ? '<button class="bt" data-prompts="' + r.id + '">Copiar prompts</button>' : '') +
+    '</div></div></div>';
+}
+
+function render(){
+  const lista = document.getElementById('lista');
+  let itens;
+  if (aba === 'arquivo') itens = D.roteiros.filter(r => feitos[r.id] && bate(r));
+  else itens = D.roteiros.filter(r => r.grupo === aba && !feitos[r.id] && bate(r));
+
+  if (!itens.length){
+    lista.innerHTML = '<div class="vazio">' + (aba === 'arquivo'
+      ? 'Nada gravado ainda.<br>Marque o checkbox e o roteiro vem pra cá.'
+      : 'Nenhum roteiro pendente com esse filtro.') + '</div>';
+  } else {
+    let html = '';
+    if (aba === 'arquivo'){
+      const g = {};
+      itens.forEach(r => { (g[r.lote] = g[r.lote] || []).push(r); });
+      Object.keys(g).forEach(l => {
+        html += '<div class="nota"><div class="t">' + esc(l) + ' · ' + g[l].length + ' gravados</div></div>';
+        html += g[l].map(card).join('');
+      });
+    } else html = itens.map(card).join('');
+    lista.innerHTML = html;
+  }
+  stats();
+}
+
+function stats(){
+  const t = D.roteiros, f = t.filter(r => feitos[r.id]).length;
+  document.getElementById('s-falta').textContent = t.length - f;
+  document.getElementById('s-feitos').textContent = f;
+  document.getElementById('s-fala').textContent = t.filter(r => r.grupo==='fala' && !feitos[r.id]).length;
+  document.getElementById('s-cena').textContent = t.filter(r => r.cenas && !feitos[r.id]).length;
+  const pct = t.length ? Math.round(f/t.length*100) : 0;
+  document.getElementById('barra').style.width = pct + '%';
+  document.getElementById('p-pct').textContent = pct + '%';
+  ['fala','split','narrado'].forEach(g =>
+    document.getElementById('c-' + g).textContent = t.filter(r => r.grupo===g && !feitos[r.id]).length);
+  document.getElementById('c-arquivo').textContent = f;
+}
+
+let fonte = parseInt(localStorage.getItem(FKEY) || '100', 10);
+function aplicarFonte(){ document.getElementById('grav-corpo').style.fontSize = fonte + '%'; localStorage.setItem(FKEY, fonte); }
+function abrirGrav(r){
+  if (!r) return;
+  document.getElementById('grav-titulo').textContent = r.titulo;
+  let h = '';
+  if (r.cenas){
+    h = r.cenas.map(c =>
+      '<div class="grav-cena"><div class="rot">Cena ' + c.n + (c.tempo ? ' · ' + esc(c.tempo) : '') + (c.tela ? ' · ' + esc(c.tela) : '') + '</div>' +
+      '<div class="grav-texto">' + esc(c.fala) + '</div></div>').join('');
+  } else {
+    h = '<div class="grav-hook">' + esc(r.gancho) + '</div>' +
+        (r.corpo ? '<div class="grav-texto">' + esc(r.corpo) + '</div>' : '') +
+        '<div class="grav-cta">' + esc(r.cta) + '</div>';
+  }
+  document.getElementById('grav-corpo').innerHTML = h;
+  document.getElementById('grav').classList.add('on');
+  document.getElementById('grav-corpo').scrollTop = 0;
+  aplicarFonte();
+}
+
+document.getElementById('lista').addEventListener('click', e => {
+  const ab = e.target.closest('[data-abre]');
+  if (ab){
+    const id = ab.dataset.abre, c = ab.closest('.card');
+    if (abertos.has(id)){ abertos.delete(id); c.classList.remove('aberto'); c.querySelector('.abre').lastChild.textContent = 'Ver roteiro completo'; }
+    else { abertos.add(id); c.classList.add('aberto'); c.querySelector('.abre').lastChild.textContent = 'Fechar roteiro'; }
+    return;
+  }
+  const cp = e.target.closest('[data-copy]');
+  if (cp){ copiar(cp.dataset.copy, 'Gancho copiado'); return; }
+  const gv = e.target.closest('[data-grav]');
+  if (gv){ abrirGrav(D.roteiros.find(r => r.id === gv.dataset.grav)); return; }
+  const fl = e.target.closest('[data-full]');
+  if (fl){ copiar(textoRoteiro(D.roteiros.find(r => r.id === fl.dataset.full)), 'Roteiro copiado'); return; }
+  const pr = e.target.closest('[data-prompts]');
+  if (pr){ copiar(textoPrompts(D.roteiros.find(r => r.id === pr.dataset.prompts)), 'Prompts copiados'); return; }
+});
+document.getElementById('lista').addEventListener('change', e => {
+  if (e.target.type !== 'checkbox') return;
+  const c = e.target.closest('.card'), id = c.dataset.id;
+  if (e.target.checked) feitos[id] = 1; else delete feitos[id];
+  salvar();
+  c.style.opacity = '0'; c.style.transform = 'translateX(10px)';
+  setTimeout(render, 180);
+});
+document.querySelectorAll('.aba').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.aba').forEach(x => x.classList.remove('on'));
+  b.classList.add('on'); aba = b.dataset.aba; filtro = 'todos'; montarFiltros(); render();
+  window.scrollTo({top:0, behavior:'smooth'});
+}));
+document.getElementById('busca').addEventListener('input', e => { busca = e.target.value.trim().toLowerCase(); render(); });
+document.getElementById('grav-fechar').addEventListener('click', () => document.getElementById('grav').classList.remove('on'));
+document.getElementById('fonte-mais').addEventListener('click', () => { fonte = Math.min(200, fonte+12); aplicarFonte(); });
+document.getElementById('fonte-menos').addEventListener('click', () => { fonte = Math.max(70, fonte-12); aplicarFonte(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.getElementById('grav').classList.remove('on'); });
+
+document.getElementById('abrir-sync').addEventListener('click', () => {
+  const box = document.getElementById('box-sync'), ids = Object.keys(feitos);
+  document.getElementById('sync-txt').value = ids.length ? 'ADS GRAVADOS (' + ids.length + '):\n' + ids.join(', ') : 'Nada marcado ainda.';
+  box.style.display = (box.style.display === 'none') ? 'block' : 'none';
+  if (box.style.display === 'block') box.scrollIntoView({behavior:'smooth', block:'center'});
+});
+document.getElementById('sync-copy').addEventListener('click', () => copiar(document.getElementById('sync-txt').value, 'Lista copiada'));
+document.getElementById('reset').addEventListener('click', () => {
+  if (confirm('Isso desmarca TUDO. Continuar?')){ feitos = {}; salvar(); render(); }
+});
+
+function montarFiltros(){
+  const el = document.getElementById('filtros');
+  if (aba === 'arquivo'){ el.innerHTML = ''; return; }
+  const ls = [...new Set(D.roteiros.filter(r => r.grupo === aba).map(r => r.lote))];
+  if (ls.length < 2){ el.innerHTML = ''; return; }
+  el.innerHTML = '<button class="chip on" data-f="todos">Todos</button>' +
+    ls.map(l => '<button class="chip" data-f="' + esc(l) + '">' + esc(l) + '</button>').join('');
+  el.querySelectorAll('[data-f]').forEach(b => b.addEventListener('click', () => {
+    el.querySelectorAll('[data-f]').forEach(x => x.classList.remove('on'));
+    b.classList.add('on'); filtro = b.dataset.f; render();
+  }));
+}
+
+fetch('dados.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    D = d;
+    document.getElementById('h-sub').textContent = d.roteiros.length + ' roteiros · ' + d.lotes.length + ' lotes';
+    document.getElementById('h-obj').textContent = d.objetivo || '';
+    document.getElementById('f-atualizado').textContent = 'atualizado em ' + d.atualizado;
+    montarFiltros(); render();
+  })
+  .catch(() => {
+    document.getElementById('lista').innerHTML = '<div class="vazio">Não consegui carregar o dados.json.<br>Use o link publicado, não o arquivo local.</div>';
+  });
+
+if ('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js').then(reg => {
+    reg.update();
+    let r = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (r) return; r = true; location.reload(); });
+  }).catch(function(){});
+}
+</script>
+</body>
+</html>

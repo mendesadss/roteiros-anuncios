@@ -1,0 +1,1556 @@
+{
+ "versao": 1,
+ "atualizado": "2026-07-19",
+ "objetivo": "Anúncio atrai seguidor pro @mendes.adss. O CTA de todo vídeo é o follow, nunca a venda.",
+ "lotes": [
+  "V1 Fundação",
+  "V1 Viral",
+  "V2 Fundação",
+  "V2 Viral Máximo",
+  "Split-screen",
+  "Narrados (B-roll)"
+ ],
+ "roteiros": [
+  {
+   "id": "v1-01",
+   "lote": "V1 Fundação",
+   "titulo": "Você vende 13 horas do seu dia",
+   "formato": "Formato B, dor do CLT",
+   "angulo": "bate na dor central (vender a vida por um salário ruim) e mostra que existe saída real.",
+   "duracao": "40 a 50s",
+   "cenario": "rua, carro ou quarto, algo cru, nada de estúdio de guru.",
+   "legenda": "Você vende 13h do seu dia por R$3.500 😤",
+   "gancho": "Você acorda, pega trânsito, vende 13 horas do seu dia pra uma empresa, ganha R$3.500 e ainda volta pra casa odiando a sua vida. E o pior: no fim do mês esse dinheiro não dá pra nada.",
+   "corpo": "Eu não tô aqui pra te dizer que largar o CLT amanhã é fácil, porque não é. Mas deixa eu te falar uma parada: enquanto você troca 13 horas por um salário fixo, tem gente comum, sem faculdade, montando um negócio na internet que trabalha pra ela até quando ela tá dormindo. [visual: print de pedido/notificação de venda chegando no celular]\nNão é fórmula mágica, não é ficar rico em 7 dias. É um método, é trabalho, mas é um trabalho que constrói ALGO seu, não o sonho do seu chefe.",
+   "cta": "Se você tá cansado de vender a sua vida por hora, me segue aqui no @mendes.adss. Tô postando de graça o caminho que ninguém te conta. É só seguir.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-02",
+   "lote": "V1 Fundação",
+   "titulo": "Todo curso de renda online é golpe. E você tá certo.",
+   "formato": "Anti-guru",
+   "angulo": "concorda com a maior objeção do público, se posiciona como o oposto do guru, e o CTA de graça prova o ponto.",
+   "duracao": "40 a 50s",
+   "cenario": "talking head cru, sem carro de luxo, sem nada chique aparecendo.",
+   "legenda": "Todo curso de renda online é golpe ✋",
+   "gancho": "\"Todo curso de renda online é golpe.\" Você já pensou isso, né? E olha: na maioria das vezes, você tá certo.",
+   "corpo": "99% desses caras acham um método que dá certo, param de fazer, e vendem o \"segredo\" pra você por R$997 mostrando a Ferrari alugada. [visual: mockup de anúncio genérico de guru com Lamborghini, com um X vermelho]\nEu não vou fazer isso com você. Sabe por quê? Porque eu não tô te vendendo nada nesse vídeo. Zero. Eu tô construindo um negócio de verdade na internet e postando o processo real, com erro, com trabalho, sem cortar a parte chata.",
+   "cta": "Se você tá de saco cheio de guru vendendo sonho, me segue. Aqui é de graça e é honesto. Só seguir e aprender.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-03",
+   "lote": "V1 Fundação",
+   "titulo": "Peguei um CLT que odeia o emprego",
+   "formato": "Formato A, desafio documental",
+   "angulo": "prova social documental. Pega uma pessoa real (aluno, amigo, alguém do zero) e mostra o processo. É o formato de maior credibilidade.",
+   "duracao": "50 a 70s",
+   "cenario": "você em movimento, cenas do \"personagem\", prints de tela.",
+   "legenda": "Dia 1: tirando um CLT do sufoco 🚨",
+   "gancho": "Peguei um cara que odeia o CLT dele e falou que \"não existe jeito de sair disso\". Vou provar que existe. Dia 1.",
+   "corpo": "Ele ganha R$2.400, mora sozinho, tá travado. A primeira coisa que a maioria erra é achar que precisa de muito dinheiro ou de um dom pra começar. Não precisa. [visual: você mostrando a tela montando a estrutura do negócio com ele]\nA gente começou do zero: escolha de produto, estrutura simples, os primeiros testes. [visual: print da primeira venda/primeiro resultado] Olha aqui o primeiro sinal de que a coisa anda. Não é milagre, é o passo certo na ordem certa.",
+   "cta": "Amanhã eu posto o dia 2. Se você quer acompanhar o passo a passo e aplicar no seu, me segue aqui. Não vou cobrar nada, só me segue pra não perder.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-04",
+   "lote": "V1 Fundação",
+   "titulo": "Dropshipping não é isso que te falaram",
+   "formato": "Formato C, desmistificar",
+   "angulo": "corrige o mito raso (\"comprar da China e revender caro\") que o público associa a golpe, e mostra na tela como é de verdade. Educa e gera autoridade.",
+   "duracao": "45 a 60s",
+   "cenario": "você apontando pra uma tela/monitor com a loja e o painel.",
+   "legenda": "Dropshipping ≠ comprar da China e revender",
+   "gancho": "Se alguém te disse que negócio online é \"comprar da China por R$10 e revender por R$100\", essa pessoa te enganou. É por isso que a maioria acha que é golpe.",
+   "corpo": "Deixa eu te mostrar na prática o que realmente faz o negócio andar. [visual: tela mostrando anúncio + página + pedido] Não é o produto barato, é como você comunica ele, é a oferta, é o público certo vendo. [visual: destaca a parte de criativo/oferta na tela]\nQuem entende isso vende. Quem só \"compra e revende\" quebra e sai xingando dropshipping na internet.",
+   "cta": "Eu mostro isso destrinchado de graça aqui no perfil. Se você quer entender de verdade antes de gastar um real, me segue.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-05",
+   "lote": "V1 Fundação",
+   "titulo": "Esperando 2026 melhorar?",
+   "formato": "Formato E, calendário",
+   "angulo": "news-jacking do \"ano novo / o país não melhora\". Pega a crença \"antes era mais fácil / tá tudo contra você\" e vira em urgência de agir.",
+   "duracao": "40 a 55s",
+   "cenario": "talking head, pode ter B-roll de rua/cidade.",
+   "legenda": "Esperando o ano virar pra sua vida mudar? 🚨",
+   "gancho": "Você tá esperando o ano virar pra sua vida melhorar? Eu tenho uma notícia ruim: o sistema não vai mudar pra você. O salário vai continuar não dando pra nada.",
+   "corpo": "A gente cresceu ouvindo que \"antes era mais fácil\", que \"trabalha igual cachorro e não compra nem um carro popular\". E é verdade, pra quem depende só do CLT. [visual: você firme, sério] Mas tem uma minoria que parou de esperar o país melhorar e construiu a própria renda na internet.\nNão porque são especiais. Porque começaram, enquanto o resto ficava esperando janeiro.",
+   "cta": "Se você não quer chegar no fim do ano no mesmo lugar, me segue. Eu ensino o caminho aqui de graça, todo dia. Começa seguindo.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-06",
+   "lote": "V1 Fundação",
+   "titulo": "Quanto custa pra começar de verdade",
+   "formato": "Formato C, quebra objeção de dinheiro",
+   "angulo": "ataca o medo de perder dinheiro de novo. Mostra que dá pra começar validando barato, sem repetir o prejuízo de R$3.000 do curso passado.",
+   "duracao": "45 a 60s",
+   "cenario": "você com tela/celular mostrando números.",
+   "legenda": "Você não perdeu dinheiro à toa 💸",
+   "gancho": "Você já perdeu dinheiro num curso que prometeu tudo e não entregou nada. Aí ficou com medo de tentar de novo. Justo. Mas deixa eu te mostrar por que você perdeu.",
+   "corpo": "Você perdeu porque te venderam sonho, não método. Te mandaram rodar tráfego às cegas e \"confiar\". [visual: você mostrando na tela o jeito certo de validar barato] O jeito certo é testar pequeno, com pouco, ler o que o mercado te responde e só escalar o que já deu sinal.\nIsso não protege seu bolso? Protege. É assim que você para de apostar e começa a construir.",
+   "cta": "Eu ensino esse jeito de começar sem se arriscar aqui no perfil, de graça. Se você não quer perder dinheiro de novo, me segue.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-07",
+   "lote": "V1 Fundação",
+   "titulo": "Não existe fórmula mágica. Ainda bem.",
+   "formato": "Formato B, quebra objeção #1",
+   "angulo": "abraça a crença \"não existe fórmula mágica\" e transforma em vantagem: se fosse mágica, todo mundo já teria. O fato de dar trabalho é o que te protege da concorrência.",
+   "duracao": "40 a 50s",
+   "cenario": "talking head cru.",
+   "legenda": "Não existe fórmula mágica 🪄❌",
+   "gancho": "\"Não existe fórmula mágica pra ganhar dinheiro na internet.\" Concordo 100%. E é exatamente por isso que EU consigo e a maioria não.",
+   "corpo": "Se fosse mágica, botão fácil, todo mundo já tava rico e ninguém tava mais no CLT. O fato de dar trabalho é o que afasta os preguiçosos e deixa espaço pra quem realmente faz. [visual: você contando nos dedos os passos]\nNão é sobre sorte, é sobre fazer a coisa certa, na ordem certa, de forma consistente. Isso qualquer pessoa disposta aprende.",
+   "cta": "Se você é do tipo que topa trabalhar pelo certo em vez de esperar sorte, me segue. Eu mostro o passo a passo de graça aqui. Só seguir.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-08",
+   "lote": "V1 Fundação",
+   "titulo": "Eu também vendia minhas horas",
+   "formato": "Formato A, storytelling de origem",
+   "angulo": "identificação. Sua história pessoal (ou o mesmo arco) de sair do sufoco. Gera conexão e o público se vê em você.",
+   "duracao": "50 a 65s",
+   "cenario": "talking head íntimo, tom mais baixo, sincero.",
+   "legenda": "Eu também odiava segunda-feira",
+   "gancho": "Eu já acordei odiando que era segunda. Já fiz conta pra ver se o salário fechava o mês. Já achei que \"isso de ganhar dinheiro na internet\" era conversa.",
+   "corpo": "A virada não foi um dia de sorte. Foi quando eu parei de procurar atalho e comecei a tratar isso como um negócio de verdade: estudar o público, testar produto, aprender a vender. [visual: bastidor seu, trabalhando, tela do negócio] Errei muito no começo. Mas cada erro me ensinou uma coisa que curso nenhum tinha me falado.\nHoje eu construí algo que é meu. E a diferença entre mim e você talvez seja só o primeiro passo.",
+   "cta": "Eu conto essa jornada e ensino o que aprendi aqui no perfil, sem cobrar nada. Se você tá nesse ponto que eu tava, me segue. Vem comigo.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-09",
+   "lote": "V1 Fundação",
+   "titulo": "Se o cara te mostra a Ferrari, corre",
+   "formato": "Anti-guru, variação de B",
+   "angulo": "ataca o estereótipo do guru (Ferrari, luxo, testemunho falso) que o público odeia, e se posiciona pelo processo real.",
+   "duracao": "35 a 50s",
+   "cenario": "talking head, propositalmente simples.",
+   "legenda": "Guru mostrando Ferrari? CORRE 🏃",
+   "gancho": "Regrinha rápida pra não cair em golpe: se o cara começa o vídeo te mostrando a Ferrari, a mansão e o rolex pra depois te vender um curso, corre.",
+   "corpo": "Quem tem processo mostra processo. Quem não tem, mostra o carro. [visual: split, de um lado guru com carro e X vermelho, do outro você mostrando tela de trabalho] O luxo é a isca pra você não reparar que ele não ensina nada de concreto.\nEu prefiro te mostrar a parte chata: o teste que deu errado, o ajuste, o resultado que veio depois do trabalho. Porque é isso que você vai precisar fazer.",
+   "cta": "Se você quer aprender pelo processo e não pela promessa, me segue. É de graça e é real.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v1-10",
+   "lote": "V1 Fundação",
+   "titulo": "Não preciso de dinheiro. Preciso COMEÇAR.",
+   "formato": "Formato B, para quem está travado",
+   "angulo": "fala com quem está perdido e paralisado (frase literal do público). Tira o peso de \"ficar rico\" e reduz pro primeiro passo. CTA de follow é o próprio primeiro passo.",
+   "duracao": "40 a 50s",
+   "cenario": "talking head direto, olhando na câmera.",
+   "legenda": "Não preciso de dinheiro. Preciso COMEÇAR 🎯",
+   "gancho": "\"Eu não preciso de dinheiro. Eu preciso COMEÇAR a ganhar dinheiro.\" Se você já pensou exatamente isso, esse vídeo é pra você.",
+   "corpo": "O que te trava não é falta de dinheiro, é não saber qual o primeiro passo. Aí você fica meses pesquisando, caindo em anúncio de golpe, e não sai do lugar. [visual: você firme, gesticulando] Você não precisa ficar milionário esse ano. Você precisa dar o primeiro passo certo e o segundo, e o terceiro.\nNegócio na internet se constrói assim, um passo de cada vez, não num estalo.",
+   "cta": "O primeiro passo você pode dar agora: me segue aqui no @mendes.adss. Todo dia eu posto uma peça desse quebra-cabeça, de graça. Começa seguindo.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-11",
+   "lote": "V1 Viral",
+   "titulo": "Quanto vale 1 hora da sua vida?",
+   "formato": "matemática visceral",
+   "legenda": "Quanto vale 1 hora da sua vida? 🧮",
+   "visual": "calculadora na tela fazendo salário ÷ horas",
+   "gancho": "Faz a conta rápido: pega o teu salário e divide pelas horas que você trabalha no mês. Deu quanto? R$15? R$18 a hora? É por isso que você tá cansado: você vende a coisa mais cara que você tem, o teu tempo, pela mais barata.",
+   "variacoes": [
+    "Você vendeu 1 hora da sua vida hoje por R$18. E amanhã vai vender de novo.",
+    "Quanto vale 1 hora sua? Faz a conta. Vai te dar raiva.",
+    "Seu chefe comprou 8 horas da sua vida hoje e você nem reparou no preço."
+   ],
+   "corpo": "O problema não é trabalhar. É trocar HORA por dinheiro, porque hora acaba. Quem constrói algo na internet vende a mesma coisa mil vezes enquanto dorme. Não é sobre trabalhar menos, é sobre parar de vender teu tempo no varejo.",
+   "cta": "Se essa conta te incomodou, me segue. Eu mostro de graça como parar de vender hora. @mendes.adss",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-12",
+   "lote": "V1 Viral",
+   "titulo": "Você não é preguiçoso, você tá exausto",
+   "formato": "validação + reframe",
+   "legenda": "Você não é preguiçoso. Você tá exausto.",
+   "visual": "você sincero, tom baixo",
+   "gancho": "Você não é preguiçoso. Você chega em casa morto, sem energia pra nada, e ainda se culpa por não \"correr atrás\". O problema não é você. É o modelo.",
+   "variacoes": [
+    "Todo mundo te chama de acomodado. Mentira. Você tá exausto, é diferente.",
+    "Você não tá procrastinando. Você tá esgotado de passar 8h fazendo o outro ficar rico.",
+    "Não é falta de vontade. Ninguém rende depois de vender o dia inteiro."
+   ],
+   "corpo": "Trabalhar 8h suga exatamente a energia que você precisaria pra construir a sua saída. É um ciclo desenhado pra você nunca sair. A virada não é \"trabalhar mais\". É trocar por um modelo onde o teu esforço fica pra você, não evapora no fim do mês.",
+   "cta": "Se você tá cansado de ser chamado de preguiçoso, me segue. Vou te mostrar a saída, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-13",
+   "lote": "V1 Viral",
+   "titulo": "Você tá vendo isso no intervalo, né?",
+   "formato": "ofensa que concorda",
+   "legenda": "Você tá vendo isso no intervalo, né? 👀",
+   "visual": "você olhando fixo na câmera",
+   "gancho": "Se ganhar dinheiro na internet fosse fácil, você não tava assistindo esse vídeo escondido no intervalo do seu trabalho.",
+   "variacoes": [
+    "Você tá vendo isso no banheiro do trabalho, né? Eu sei. Por isso presta atenção.",
+    "Não é fácil. Se fosse, você não tava aqui procurando saída às escondidas.",
+    "Aposto que você abriu isso no intervalo. Isso já diz tudo sobre onde você tá."
+   ],
+   "corpo": "Não é fácil, mas é possível, e é mais simples do que os gurus fazem parecer pra te vender curso. Não precisa largar tudo amanhã. Precisa começar a construir nas brechas, do jeito certo, antes de o expediente recomeçar.",
+   "cta": "Se você quer usar essas brechas do teu dia, me segue. É de graça e é real.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-14",
+   "lote": "V1 Viral",
+   "titulo": "6 dias pra ele, 1 pra você",
+   "formato": "news-jacking 6x1",
+   "legenda": "6 dias pra ele. 1 pra você. 🚨",
+   "gancho": "Escala 6x1. Você trabalha 6 dias pra descansar 1, a vida inteira, pra deixar rico um dono que você nunca viu. E ainda tem gente que acha isso normal.",
+   "variacoes": [
+    "6x1 não é trabalho, é sobrevivência com folga de domingo.",
+    "Você defende a escala 6x1 igual quem defende a própria jaula.",
+    "6 dias pra ele. 1 pra você. Isso faz sentido pra você?"
+   ],
+   "corpo": "Enquanto o Brasil discute se 6x1 é justo, uma minoria parou de esperar a lei mudar e construiu uma renda que não depende de escala nenhuma. Não é sobre política. É sobre parar de ser refém do calendário de outra pessoa.",
+   "cta": "Se você não aguenta mais viver de folga de domingo, me segue. Eu mostro a outra rota.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-15",
+   "lote": "V1 Viral",
+   "titulo": "Seu salário é uma coleira",
+   "formato": "reframe provocativo",
+   "legenda": "Seu salário é uma coleira 🔗",
+   "visual": "você firme, provocativo",
+   "gancho": "Teu salário não é um prêmio. É a quantia exata calculada pra você não ter coragem de sair, mas nunca o suficiente pra você ficar livre.",
+   "variacoes": [
+    "Sabe por que teu salário cai certinho todo dia 5? Pra você não fugir.",
+    "Teu salário é a coleira. Curta o suficiente pra você não ir longe.",
+    "Te pagam o mínimo pra você voltar amanhã. Nem mais, nem menos."
+   ],
+   "corpo": "Emprego te dá o suficiente pra sobreviver e voltar no dia seguinte, nunca pra construir uma saída. É de propósito. A única forma de cortar a coleira é criar uma renda que não dependa de ninguém te liberar.",
+   "cta": "Se você quer cortar essa coleira, me segue. Eu ensino como, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-16",
+   "lote": "V1 Viral",
+   "titulo": "Para de pedir aumento",
+   "formato": "contrarian",
+   "legenda": "Para de pedir aumento 🚫",
+   "visual": "você direto na câmera",
+   "gancho": "Para de pedir aumento. Sério. Você vai implorar 8%, ralar 6 meses provando que merece e no fim mal cobre a inflação. Tem gente ganhando isso num dia, do lado de fora.",
+   "variacoes": [
+    "Aumento de 8% é a migalha que te fazem agradecer.",
+    "Você tá pedindo aumento? Você tá pedindo permissão pra ganhar mais.",
+    "O maior aumento do ano é parar de depender de aumento."
+   ],
+   "corpo": "Aumento é o teto que outra pessoa define pra você. Renda própria não tem teto, tem esforço. Não é sobre trabalhar mais no que já não te paga. É construir uma fonte onde o quanto você ganha depende de você.",
+   "cta": "Se você tá cansado de pedir permissão pra ganhar mais, me segue. Te mostro o caminho de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-17",
+   "lote": "V1 Viral",
+   "titulo": "Você é uma linha na planilha",
+   "formato": "inimigo / sistema",
+   "legenda": "Você é uma linha na planilha 📉",
+   "visual": "você sério, tom de verdade dura",
+   "gancho": "Não existe plano de carreira pra você virar chefe. O plano é você ficar exatamente onde tá, produzindo o máximo de tempo possível pelo menor custo possível.",
+   "variacoes": [
+    "Se você sumir amanhã, teu trabalho tá anunciado na parte da tarde. Pensa nisso.",
+    "Você não é insubstituível. Você é uma linha na planilha de custos.",
+    "O plano de carreira é a cenoura que te fazem correr atrás pra sempre."
+   ],
+   "corpo": "A empresa não é vilã, ela só faz o que foi feita pra fazer: extrair o máximo por menos. O erro é entregar a sua vida esperando que ela te salve. Ninguém vem te salvar. A saída você constrói por fora.",
+   "cta": "Se você entendeu isso, me segue. Eu mostro como construir a saída, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-18",
+   "lote": "V1 Viral",
+   "titulo": "Daqui a 30 anos, mesma cadeira",
+   "formato": "medo do futuro",
+   "legenda": "Daqui a 30 anos... mesma cadeira? 😶",
+   "visual": "você encarando a câmera, pausa dramática",
+   "gancho": "Fecha o olho e se imagina daqui a 30 anos. Mesma cadeira, mesmo crachá, salário que mal mudou e a sensação de que a vida inteira passou vendendo hora. Assusta? Devia.",
+   "variacoes": [
+    "Daqui a 30 anos você vai tá na mesma mesa. A não ser que você mude algo hoje.",
+    "Teu futuro já tá escrito: aposentar com um salário que nunca deu pra nada.",
+    "Você vai ter 60 anos e ainda vai tá pedindo folga pro chefe. É isso que você quer?"
+   ],
+   "corpo": "O tempo passa igual pra todo mundo. A diferença é que uns usam esses anos construindo algo próprio e outros esperando sexta-feira. Você não precisa de sorte. Precisa começar antes que mais 5 anos passem no automático.",
+   "cta": "Se esse futuro te assustou, me segue. A hora de mudar a rota é agora, e é de graça aqui.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-19",
+   "lote": "V1 Viral",
+   "titulo": "Zoaram ele por empreender",
+   "formato": "reversão / prova social",
+   "legenda": "Zoaram ele por empreender 😏",
+   "visual": "print de antes e depois / resultado real",
+   "gancho": "Zoaram ele por largar o \"emprego bom\" pra tentar vender na internet. Chamaram de sonhador, de doido. Hoje ele fatura mais num mês do que ganhava num ano. Adivinha quem parou de rir.",
+   "variacoes": [
+    "Todo mundo que empreendeu foi chamado de doido antes de ser chamado de sortudo.",
+    "Riram dele quando começou. Agora pedem dica no direct.",
+    "O emprego seguro que zoaram ele por largar demitiu 200 pessoas mês passado."
+   ],
+   "corpo": "A galera zoa porque ninguém tem coragem de sair da manada. Não precisa largar tudo hoje. Precisa começar em silêncio, provar pra você mesmo e deixar o resultado falar. O riso deles vira pergunta depois.",
+   "cta": "Se você tá cansado de ser o sonhador da roda, me segue. Eu te mostro por onde começar.",
+   "grupo": "fala"
+  },
+  {
+   "id": "vr-20",
+   "lote": "V1 Viral",
+   "titulo": "Esse vídeo não é pra todo mundo",
+   "formato": "filtro explícito",
+   "legenda": "Esse vídeo não é pra todo mundo 🚪",
+   "visual": "você direto, desafiador",
+   "gancho": "Esse vídeo não é pra quem tá confortável. Se você curte teu emprego e tá satisfeito com teu salário, pode deslizar. Agora, se algo aí dentro já cansou, fica.",
+   "variacoes": [
+    "Se você tá bem com sua vida, esse vídeo não é pra você. Sério, deslize.",
+    "Isso aqui vai incomodar quem finge que tá tudo bem. Se é você, continua.",
+    "90% vai deslizar esse vídeo. Os 10% que ficarem são os que tão de saco cheio."
+   ],
+   "corpo": "Quem fica é porque sabe que dá pra mais. Você não quer promessa de riqueza fácil, quer um caminho real e honesto, que dependa do teu esforço e não de sorte. É exatamente isso que eu construo e mostro aqui.",
+   "cta": "Se você é dos 10% que ficaram até aqui, me segue. É de graça e é pra quem quer mesmo.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-01",
+   "lote": "V2 Fundação",
+   "titulo": "Você vende 13 horas do seu dia",
+   "duracao": "~25s",
+   "legenda": "Você vende 13h do seu dia por R$3.500 😤",
+   "visual": "você na rua/carro, cru",
+   "gancho": "Você vende 13 horas do seu dia por R$3.500 e ainda volta pra casa odiando a sua vida.",
+   "corpo": "E no fim do mês não sobra nada. Enquanto isso tem gente comum montando um negócio na internet que trabalha até quando ela dorme. Não é mágica, é método.",
+   "cta": "Cansado de vender a sua vida por hora? Me segue. Tô postando o caminho de graça. @mendes.adss",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-02",
+   "lote": "V2 Fundação",
+   "titulo": "Todo curso de renda online é golpe. E você tá certo.",
+   "duracao": "~22s",
+   "legenda": "Todo curso de renda online é golpe ✋",
+   "visual": "talking head, nada de luxo aparecendo",
+   "gancho": "\"Todo curso de renda online é golpe.\" Você tá certo. Na maioria das vezes é.",
+   "corpo": "O cara acha um método, para de fazer, e te vende o \"segredo\" por R$997 com a Ferrari alugada. Eu não tô te vendendo nada nesse vídeo. Zero.",
+   "cta": "De saco cheio de guru? Me segue. Aqui é de graça e é honesto.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-03",
+   "lote": "V2 Fundação",
+   "titulo": "Peguei um CLT que odeia o emprego",
+   "duracao": "~28s",
+   "legenda": "Dia 1: tirando um CLT do sufoco 🚨",
+   "visual": "print do primeiro resultado",
+   "gancho": "Peguei um cara que odeia o CLT e jura que \"não tem como sair disso\". Vou provar que tem. Dia 1.",
+   "corpo": "Ele ganha R$2.400, tá travado. O erro que todo mundo comete: achar que precisa de muito dinheiro ou de um dom pra começar. Não precisa. [visual: print do primeiro resultado]",
+   "cta": "Amanhã posto o dia 2. Quer ver o passo a passo? Me segue pra não perder.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-04",
+   "lote": "V2 Fundação",
+   "titulo": "Dropshipping não é o que te falaram",
+   "duracao": "~25s",
+   "legenda": "Dropshipping ≠ comprar da China e revender",
+   "visual": "você apontando pra tela com loja/painel",
+   "gancho": "Se te disseram que é \"comprar da China por R$10 e revender por R$100\", te enganaram. Por isso todo mundo acha que é golpe.",
+   "corpo": "O que faz vender não é o produto barato. É a comunicação, a oferta, o público certo. Quem entende isso vende. Quem só compra e revende quebra.",
+   "cta": "Quer entender de verdade antes de gastar um real? Me segue.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-05",
+   "lote": "V2 Fundação",
+   "titulo": "Esperando 2026 melhorar?",
+   "duracao": "~28s",
+   "legenda": "Esperando o ano virar pra mudar de vida? 🚨",
+   "visual": "talking head firme, B-roll de rua",
+   "gancho": "Você tá esperando o ano virar pra sua vida melhorar? O sistema não vai mudar pra você.",
+   "corpo": "O salário vai continuar não dando pra nada, igual todo ano. Tem uma minoria que parou de esperar o país melhorar e construiu a própria renda. Não porque são especiais. Porque começaram.",
+   "cta": "Não quer chegar em dezembro no mesmo lugar? Me segue. Ensino o caminho de graça, todo dia.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-06",
+   "lote": "V2 Fundação",
+   "titulo": "Você não perdeu dinheiro à toa",
+   "duracao": "~28s",
+   "legenda": "Você não perdeu dinheiro à toa 💸",
+   "visual": "você com celular/tela mostrando o conceito",
+   "gancho": "Você perdeu R$3.000 num curso que prometeu tudo e não entregou nada. E ficou com medo de tentar de novo. Justo.",
+   "corpo": "Mas você não perdeu por burrice. Perdeu porque te venderam sonho e te mandaram rodar tráfego às cegas. O jeito certo é testar pequeno e só escalar o que já deu sinal.",
+   "cta": "Não quer perder dinheiro de novo? Me segue. Ensino esse jeito aqui, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-07",
+   "lote": "V2 Fundação",
+   "titulo": "Não existe fórmula mágica. Ainda bem.",
+   "duracao": "~27s",
+   "legenda": "Não existe fórmula mágica 🪄❌",
+   "visual": "talking head cru",
+   "gancho": "\"Não existe fórmula mágica pra ganhar dinheiro na internet.\" Concordo. E é por isso que eu consigo e a maioria não.",
+   "corpo": "Se fosse botão fácil, ninguém tava mais no CLT. O fato de dar trabalho afasta os preguiçosos e sobra espaço pra quem faz. Não é sorte, é a coisa certa na ordem certa.",
+   "cta": "Topa trabalhar pelo certo em vez de esperar sorte? Me segue. Passo a passo de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-08",
+   "lote": "V2 Fundação",
+   "titulo": "Eu também vendia minhas horas",
+   "duracao": "~30s",
+   "legenda": "Eu também odiava segunda-feira",
+   "visual": "talking head íntimo, tom baixo",
+   "gancho": "Eu já acordei odiando que era segunda. Já fiz conta pra ver se o salário fechava o mês.",
+   "corpo": "A virada não foi sorte. Foi quando parei de procurar atalho e tratei isso como negócio de verdade: estudar público, testar produto, aprender a vender. Errei muito. Mas construí algo que é meu.",
+   "cta": "Tá nesse ponto que eu tava? Me segue. Conto a jornada e ensino de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-09",
+   "lote": "V2 Fundação",
+   "titulo": "Se o cara te mostra a Ferrari, corre",
+   "duracao": "~24s",
+   "legenda": "Guru mostrando Ferrari? CORRE 🏃",
+   "visual": "split guru-com-carro (X vermelho) vs você na tela de trabalho",
+   "gancho": "Regra rápida pra não cair em golpe: se o cara começa o vídeo mostrando a Ferrari e o Rolex, corre.",
+   "corpo": "Quem tem processo mostra processo. Quem não tem, mostra o carro. O luxo é a isca pra você não reparar que ele não ensina nada.",
+   "cta": "Quer aprender pelo processo e não pela promessa? Me segue. É de graça e é real.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-10",
+   "lote": "V2 Fundação",
+   "titulo": "Não preciso de dinheiro. Preciso COMEÇAR.",
+   "duracao": "~30s",
+   "legenda": "Não preciso de dinheiro. Preciso COMEÇAR 🎯",
+   "visual": "talking head direto, olhando na câmera",
+   "gancho": "\"Eu não preciso de dinheiro. Eu preciso começar a ganhar dinheiro.\" Se você já pensou isso, esse vídeo é pra você.",
+   "corpo": "O que te trava não é grana, é não saber o primeiro passo. Aí você fica meses pesquisando e caindo em anúncio de golpe. Você não precisa ficar rico esse ano. Precisa dar o primeiro passo certo.",
+   "cta": "O primeiro passo é agora: me segue. Todo dia posto uma peça do quebra-cabeça, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-11",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Quanto vale 1 hora da sua vida?",
+   "duracao": "~28s",
+   "legenda": "Quanto vale 1 hora da sua vida? 🧮",
+   "visual": "calculadora na tela fazendo salário ÷ horas",
+   "gancho": "Pega teu salário, divide pelas horas do mês. Deu R$15? R$18 a hora? É por isso que você tá cansado: vende a coisa mais cara que tem, teu tempo, pela mais barata.",
+   "corpo": "Hora acaba. Quem constrói na internet vende a mesma coisa mil vezes. Não é trabalhar menos, é parar de vender teu tempo no varejo.",
+   "cta": "Essa conta te incomodou? Me segue. Mostro como parar de vender hora, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-12",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Você não é preguiçoso, você tá exausto",
+   "duracao": "~27s",
+   "legenda": "Você não é preguiçoso. Você tá exausto.",
+   "visual": "você sincero, tom baixo",
+   "gancho": "Você não é preguiçoso. Você chega em casa morto e ainda se culpa por não \"correr atrás\". O problema não é você, é o modelo.",
+   "corpo": "Trabalhar 8h suga exatamente a energia que você precisaria pra construir a sua saída. É um ciclo desenhado pra você nunca sair.",
+   "cta": "Cansado de ser chamado de preguiçoso? Me segue. Te mostro a saída, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-13",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Você tá vendo isso no intervalo, né?",
+   "duracao": "~26s",
+   "legenda": "Você tá vendo isso no intervalo, né? 👀",
+   "visual": "você olhando fixo na câmera",
+   "gancho": "Se ganhar dinheiro na internet fosse fácil, você não tava assistindo esse vídeo escondido no intervalo do trabalho.",
+   "corpo": "Não é fácil, mas é mais simples do que os gurus fazem parecer pra te vender curso. Não precisa largar tudo amanhã. Precisa começar nas brechas, do jeito certo.",
+   "cta": "Quer usar essas brechas do teu dia? Me segue. É de graça e é real.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-14",
+   "lote": "V2 Viral Máximo",
+   "titulo": "6 dias pra ele, 1 pra você",
+   "duracao": "~27s",
+   "legenda": "6 dias pra ele. 1 pra você. 🚨",
+   "gancho": "Escala 6x1: você trabalha 6 dias pra descansar 1, a vida inteira, pra deixar rico um dono que você nunca viu. E ainda tem gente achando isso normal.",
+   "corpo": "Enquanto o Brasil discute se é justo, uma minoria parou de esperar a lei mudar e construiu uma renda que não depende de escala nenhuma.",
+   "cta": "Não aguenta mais viver de folga de domingo? Me segue. Mostro a outra rota.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-15",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Seu salário é uma coleira",
+   "duracao": "~25s",
+   "legenda": "Seu salário é uma coleira 🔗",
+   "visual": "você firme, provocativo",
+   "gancho": "Teu salário não é prêmio. É a quantia exata calculada pra você não ter coragem de sair, mas nunca o suficiente pra ficar livre.",
+   "corpo": "Emprego te dá o suficiente pra sobreviver e voltar no dia seguinte, nunca pra construir uma saída. É de propósito.",
+   "cta": "Quer cortar essa coleira? Me segue. Ensino como, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-16",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Para de pedir aumento",
+   "duracao": "~26s",
+   "legenda": "Para de pedir aumento 🚫",
+   "visual": "você direto na câmera",
+   "gancho": "Para de pedir aumento. Sério. Você implora 8%, rala 6 meses provando que merece e no fim mal cobre a inflação.",
+   "corpo": "Aumento é o teto que outra pessoa define pra você. Renda própria não tem teto, tem esforço. O maior aumento do ano é parar de depender de aumento.",
+   "cta": "Cansado de pedir permissão pra ganhar mais? Me segue. Te mostro o caminho de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-17",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Você é uma linha na planilha",
+   "duracao": "~27s",
+   "legenda": "Você é uma linha na planilha 📉",
+   "visual": "você sério, tom de verdade dura",
+   "gancho": "Não existe plano de carreira pra você virar chefe. O plano é você ficar exatamente onde tá, produzindo o máximo pelo menor custo.",
+   "corpo": "A empresa não é vilã, ela só extrai o máximo por menos, é pra isso que existe. O erro é entregar sua vida esperando que ela te salve. Ninguém vem.",
+   "cta": "Entendeu isso? Me segue. Mostro como construir a saída por fora, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-18",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Daqui a 30 anos, mesma cadeira",
+   "duracao": "~28s",
+   "legenda": "Daqui a 30 anos... mesma cadeira? 😶",
+   "visual": "você encarando a câmera, pausa dramática",
+   "gancho": "Se imagina daqui a 30 anos. Mesma cadeira, mesmo crachá, salário que mal mudou, e a vida inteira passou vendendo hora. Assusta? Devia.",
+   "corpo": "O tempo passa igual pra todo mundo. Uns usam esses anos construindo algo próprio, outros esperando sexta. Você não precisa de sorte. Precisa começar.",
+   "cta": "Esse futuro te assustou? Me segue. A hora de mudar a rota é agora, de graça.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-19",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Zoaram ele por empreender",
+   "duracao": "~27s",
+   "legenda": "Zoaram ele por empreender 😏",
+   "visual": "print de antes e depois / resultado real",
+   "gancho": "Zoaram ele por largar o \"emprego bom\" pra vender na internet. Chamaram de sonhador, de doido. Adivinha quem parou de rir.",
+   "corpo": "A galera zoa porque ninguém tem coragem de sair da manada. Não precisa largar tudo hoje. Precisa começar em silêncio e deixar o resultado falar.",
+   "cta": "Cansado de ser o sonhador da roda? Me segue. Te mostro por onde começar.",
+   "grupo": "fala"
+  },
+  {
+   "id": "v2-20",
+   "lote": "V2 Viral Máximo",
+   "titulo": "Esse vídeo não é pra todo mundo",
+   "duracao": "~28s",
+   "legenda": "Esse vídeo não é pra todo mundo 🚪",
+   "visual": "você direto, desafiador",
+   "gancho": "Esse vídeo não é pra quem tá confortável. Se você curte teu emprego e tá satisfeito com teu salário, pode deslizar. Se algo aí dentro já cansou, fica.",
+   "corpo": "Quem fica sabe que dá pra mais. Você não quer promessa de riqueza fácil, quer um caminho real que dependa do teu esforço, não de sorte. É isso que eu mostro aqui.",
+   "cta": "É dos 10% que ficaram? Me segue. É de graça e é pra quem quer mesmo.",
+   "grupo": "fala"
+  },
+  {
+   "id": "sp-a1",
+   "lote": "Split-screen",
+   "titulo": "Vendendo na moeda errada",
+   "formato": "Split-screen com infográfico",
+   "gancho": "Enquanto você briga por 5% de margem no Brasil, tem gente faturando o mesmo em dólar e levando 5x mais.",
+   "corpo": "É o mesmo produto, o mesmo esforço. Muda só o mercado.\n\nLeilão menos concorrido, CPM mais barato, cliente que paga no cartão antes.\n\nVocê já provou que sabe vender. Só tá na moeda errada.",
+   "cta": "Me segue que eu documento isso de graça.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "MOEDA ERRADA",
+     "fala": "Enquanto você briga por 5% de margem no Brasil, tem gente faturando o mesmo em dólar e levando 5x mais.",
+     "prompt": "Infográfico: comparação lado a lado. À esquerda, card cinza \"BRASIL\" com o símbolo R$ e a etiqueta \"margem ~5%\". À direita, card verde \"GLOBAL\" com o símbolo $ grande e a etiqueta \"5x mais no bolso\". Uma seta verde grossa apontando do lado Brasil pro lado Global. Título no topo: \"VOCÊ TÁ VENDENDO NA MOEDA ERRADA\"."
+    },
+    {
+     "n": 2,
+     "tela": "EUA · UK · CA · AU",
+     "fala": "É o mesmo produto, o mesmo esforço. Muda só o mercado.",
+     "prompt": "Infográfico: no centro, o ícone de uma caixa de produto. Saindo dela, 4 setas verdes apontando pra 4 cards iguais rotulados \"EUA\", \"REINO UNIDO\", \"CANADÁ\" e \"AUSTRÁLIA\". Título no topo: \"O MESMO PRODUTO, 4 MERCADOS EM DÓLAR\"."
+    },
+    {
+     "n": 3,
+     "tela": "POR QUE PAGA MAIS",
+     "fala": "Leilão menos concorrido, CPM mais barato, cliente que paga no cartão antes.",
+     "prompt": "Infográfico: tabela comparativa de 3 linhas, duas colunas: \"BRASIL\" (cinza) e \"GLOBAL\" (verde). Linhas: \"CPM — caro / barato\", \"Concorrência — alta / baixa\", \"Pagamento — parcela e chora / cartão à vista\". Checkmarks verdes na coluna Global. Título: \"POR QUE LÁ FORA PAGA MAIS\"."
+    },
+    {
+     "n": 4,
+     "tela": "$ DE VERDADE",
+     "fala": "Você já provou que sabe vender. Só tá na moeda errada.",
+     "prompt": "Infográfico: um painel de vendas estilizado (mockup de dashboard) com um gráfico de linha verde subindo forte e um número grande em destaque em dólar (use \"US$\" genérico, sem valor específico). Etiqueta \"vendas em dólar\". Título: \"VOCÊ JÁ SABE VENDER\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Me segue que eu documento isso de graça.",
+     "prompt": "Infográfico: card central minimalista com um ícone de perfil e um botão verde \"SEGUIR\" com um sinal de +. Abaixo, o texto \"@mendes.adss\". Fundo quadriculado, bem limpo."
+    }
+   ],
+   "codigo": "A1",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-a2",
+   "lote": "Split-screen",
+   "titulo": "Não é o teu criativo (anúncios não vendem)",
+   "formato": "Split-screen com infográfico",
+   "gancho": "Teus anúncios não vendem, e quase nunca é culpa do criativo.",
+   "corpo": "Você joga tráfego, tráfego, e nada converte.\n\nO furo tá na oferta e na página, não no anúncio.\n\nArruma a oferta e a página, e o mesmo anúncio começa a vender.",
+   "cta": "Me segue que eu mostro como achar esse furo.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "NÃO É O CRIATIVO",
+     "fala": "Teus anúncios não vendem, e quase nunca é culpa do criativo.",
+     "prompt": "Infográfico: no centro, o ícone de um vídeo/criativo com a palavra \"CRIATIVO\" riscada. Ao lado, um ponto de interrogação verde grande. Título: \"O PROBLEMA NÃO É O CRIATIVO\"."
+    },
+    {
+     "n": 2,
+     "tela": "(sem texto)",
+     "fala": "Você joga tráfego, tráfego, e nada converte.",
+     "prompt": "Infográfico: um funil estilizado. No topo, muitas setas entrando (tráfego, em cinza). No fundo do funil, quase nada saindo (poucas vendas), com um filete verde fino. Título: \"MUITO TRÁFEGO, POUCA VENDA\"."
+    },
+    {
+     "n": 3,
+     "tela": "O FURO É A OFERTA",
+     "fala": "O furo tá na oferta e na página, não no anúncio.",
+     "prompt": "Infográfico: fluxo horizontal com 3 caixas e setas: \"TRÁFEGO\" → \"OFERTA FRACA\" (destacada com contorno vermelho suave) → \"PREJUÍZO\". A caixa do meio em evidência. Título: \"O FURO ESTÁ NA OFERTA\"."
+    },
+    {
+     "n": 4,
+     "tela": "TESTE A/B",
+     "fala": "Arruma a oferta e a página, e o mesmo anúncio começa a vender.",
+     "prompt": "Infográfico: duas versões de página de produto lado a lado, \"PÁGINA A\" e \"PÁGINA B\", com etiquetas de conversão (\"0,8%\" em cinza x \"1,4%\" em verde). A versão B com uma estrela verde de vencedora. Título: \"TESTE A/B DE PÁGINA\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Me segue que eu mostro como achar esse furo.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\". Fundo quadriculado, limpo."
+    }
+   ],
+   "codigo": "A2",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-a3",
+   "lote": "Split-screen",
+   "titulo": "O maior motivo de você não deslanchar",
+   "formato": "Split-screen com infográfico",
+   "gancho": "O maior motivo de você não ter deslanchado não tem a ver com esforço.",
+   "corpo": "Você tenta ser dono, designer, copy, tráfego e atendimento ao mesmo tempo.\n\nIsso dilui teu foco e te deixa lento. Não é preguiça.\n\nFalta alguém dizendo 'vai por aqui'.",
+   "cta": "Aqui eu te dou esse 'vai por aqui' todo dia.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "O MAIOR MOTIVO",
+     "fala": "O maior motivo de você não ter deslanchado não tem a ver com esforço.",
+     "prompt": "Infográfico: no centro, um ícone de cadeado fechado com a palavra \"TRAVADO\". Ao lado, um ícone de braço/esforço com um X (não é falta de esforço). Título: \"O MAIOR MOTIVO — E NÃO É ESFORÇO\"."
+    },
+    {
+     "n": 2,
+     "tela": "5 FUNÇÕES, 1 PESSOA",
+     "fala": "Você tenta ser dono, designer, copy, tráfego e atendimento ao mesmo tempo.",
+     "prompt": "Infográfico: no centro, o ícone de uma única pessoa (linha simples). Ao redor, 5 balões conectados com os rótulos: \"Dono\", \"Designer\", \"Copywriter\", \"Tráfego\", \"Atendimento\". Sensação de sobrecarga. Título: \"5 FUNÇÕES, 1 PESSOA SÓ\"."
+    },
+    {
+     "n": 3,
+     "tela": "(sem texto)",
+     "fala": "Isso dilui teu foco e te deixa lento. Não é preguiça.",
+     "prompt": "Infográfico: um ícone de alvo com muitas setas apontando pra direções diferentes (foco disperso, nenhuma acerta o centro). Título: \"FOCO DILUÍDO = LENTIDÃO\"."
+    },
+    {
+     "n": 4,
+     "tela": "FALTA DIREÇÃO",
+     "fala": "Falta alguém dizendo 'vai por aqui'.",
+     "prompt": "Infográfico: um labirinto simples visto de cima, com uma linha verde tracejada mostrando o caminho certo e uma placa/seta verde escrita \"POR AQUI\". Título: \"O QUE FALTA É DIREÇÃO\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Aqui eu te dou esse 'vai por aqui' todo dia.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "A3",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-a4",
+   "lote": "Split-screen",
+   "titulo": "Você já sabe que funciona (quebrou e quer voltar)",
+   "formato": "Split-screen com infográfico",
+   "gancho": "Se você já vendeu, parou, e quer voltar mas tem medo, esse é o teu empurrão.",
+   "corpo": "Quem já vendeu tem a parte difícil resolvida: sabe que funciona.\n\nO que te derrubou foi falta de gestão e um mercado apertado.\n\nVoltar com direção e mirando o global é onde você devia estar.",
+   "cta": "Tô mostrando o caminho de volta aqui, de graça.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "PRA QUEM PAROU",
+     "fala": "Se você já vendeu, parou, e quer voltar mas tem medo, esse é o teu empurrão.",
+     "prompt": "Infográfico: uma linha do tempo simples com 3 pontos: \"VENDEU\" (verde), \"PAROU\" (cinza) e \"?\" no fim. Uma seta curva verde voltando pro caminho. Título: \"PRA QUEM JÁ VENDEU E PAROU\"."
+    },
+    {
+     "n": 2,
+     "tela": "VOCÊ JÁ PROVOU",
+     "fala": "Quem já vendeu tem a parte difícil resolvida: sabe que funciona.",
+     "prompt": "Infográfico: um grande checkmark verde dentro de um círculo, com a etiqueta \"JÁ FUNCIONOU UMA VEZ\". Ao redor, ícones pequenos de notificação de venda. Título: \"VOCÊ JÁ PROVOU QUE DÁ\"."
+    },
+    {
+     "n": 3,
+     "tela": "POR QUE QUEBROU",
+     "fala": "O que te derrubou foi falta de gestão e um mercado apertado.",
+     "prompt": "Infográfico: dois cards de motivo lado a lado. Um com ícone de engrenagem quebrada e rótulo \"FALTA DE GESTÃO\". Outro com ícone de mercado lotado e rótulo \"MERCADO SATURADO\". Título: \"POR QUE A MAIORIA QUEBRA\"."
+    },
+    {
+     "n": 4,
+     "tela": "AGORA, NO GLOBAL",
+     "fala": "Voltar com direção e mirando o global é onde você devia estar.",
+     "prompt": "Infográfico: um mapa-múndi minimalista com pinos verdes em EUA, Reino Unido, Canadá e Austrália, e um gráfico de linha verde subindo ao lado. Título: \"A VOLTA CERTA É NO GLOBAL\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Tô mostrando o caminho de volta aqui, de graça.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "A4",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-a5",
+   "lote": "Split-screen",
+   "titulo": "Você não é incapaz, te abandonaram ⭐",
+   "formato": "Split-screen com infográfico",
+   "gancho": "Você não fracassou por incapaz. Te venderam um curso e sumiram quando o Pix caiu.",
+   "corpo": "Vendem, te jogam num grupo lotado e somem. Você fica falando sozinho.\n\nAcompanhamento de verdade é estar junto todo dia.\n\nE não te deixar falando sozinho num grupo.",
+   "cta": "Me segue. Aqui é o oposto disso.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "NÃO FOI VOCÊ",
+     "fala": "Você não fracassou por incapaz. Te venderam um curso e sumiram quando o Pix caiu.",
+     "prompt": "Infográfico: à esquerda, ícone de pessoa (linha) com um balão \"NÃO FOI CULPA SUA\". À direita, ícone de um curso/PDF com uma seta de fuga e uma nuvem de poeira (indicando que sumiu). Título: \"VOCÊ NÃO FALHOU. TE ABANDONARAM.\"."
+    },
+    {
+     "n": 2,
+     "tela": "CADÊ O SUPORTE?",
+     "fala": "Vendem, te jogam num grupo lotado e somem. Você fica falando sozinho.",
+     "prompt": "Infográfico: um balão de chat grande com \"?\" e vários balões cinza sem resposta ao lado (mensagens ignoradas). Um pequeno relógio indicando tempo passando. Título: \"CADÊ O SUPORTE QUE PROMETERAM?\"."
+    },
+    {
+     "n": 3,
+     "tela": "(sem texto)",
+     "fala": "Acompanhamento de verdade é estar junto todo dia.",
+     "prompt": "Infográfico: dois ícones de pessoa (linha) lado a lado, conectados por uma linha verde contínua, com um ícone de calendário marcado \"todo dia\". Título: \"ACOMPANHAMENTO DE VERDADE\"."
+    },
+    {
+     "n": 4,
+     "tela": "PROVA",
+     "fala": "E não te deixar falando sozinho num grupo.",
+     "prompt": "Infográfico: um print estilizado de conversa de suporte (balões verdes e cinza) com checkmarks de \"respondido\" e horário visível. Sem nomes. Título: \"SUPORTE QUE RESPONDE DE VERDADE\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Me segue. Aqui é o oposto disso.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "A5",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-a6",
+   "lote": "Split-screen",
+   "titulo": "\"Global é complicado demais\"?",
+   "formato": "Split-screen com infográfico",
+   "gancho": "Todo mundo acha o global complicado demais. Será mesmo?",
+   "corpo": "LLC, inglês, pagamento na gringa, fornecedor lá fora.\n\nCada uma dessas partes já tem caminho pronto.\n\nPouca gente aprende direito, e é aí que mora a tua vantagem.",
+   "cta": "Eu destrincho o global aqui, de graça.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "SERÁ MESMO?",
+     "fala": "Todo mundo acha o global complicado demais. Será mesmo?",
+     "prompt": "Infográfico: um grande ponto de interrogação verde no centro, com a frase \"GLOBAL É DIFÍCIL?\" e abaixo, em menor, \"será mesmo?\". Título no topo: \"O MITO DO GLOBAL\"."
+    },
+    {
+     "n": 2,
+     "tela": "O QUE ASSUSTA",
+     "fala": "LLC, inglês, pagamento na gringa, fornecedor lá fora.",
+     "prompt": "Infográfico: 4 cards com ícone e rótulo que costumam assustar: \"LLC\" (documento), \"Inglês\" (balão de fala), \"Pagamento gringo\" (cartão), \"Fornecedor\" (caixa). Tom de leve alerta. Título: \"O QUE PARECE ASSUSTADOR\"."
+    },
+    {
+     "n": 3,
+     "tela": "TUDO TEM SOLUÇÃO",
+     "fala": "Cada uma dessas partes já tem caminho pronto.",
+     "prompt": "Infográfico: os mesmos 4 cards da cena anterior (LLC, Inglês, Pagamento, Fornecedor), agora cada um com um checkmark verde grande em cima, indicando resolvido. Título: \"CADA UM JÁ TEM CAMINHO PRONTO\"."
+    },
+    {
+     "n": 4,
+     "tela": "A TUA VANTAGEM",
+     "fala": "Pouca gente aprende direito, e é aí que mora a tua vantagem.",
+     "prompt": "Infográfico: de um lado, muitos ícones cinza amontoados sob o rótulo \"BRASIL\" (lotado). Do outro, poucos ícones verdes com bastante espaço livre sob \"GLOBAL\". Seta verde apontando pro lado com espaço. Título: \"MENOS CONCORRÊNCIA = TUA VANTAGEM\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Eu destrincho o global aqui, de graça.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "A6",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-a7",
+   "lote": "Split-screen",
+   "titulo": "A saga da loja (prova ao vivo)",
+   "formato": "Split-screen com infográfico",
+   "gancho": "Enquanto o guru mostra Ferrari alugada, eu tô montando uma loja ao vivo.",
+   "corpo": "Sem edição bonita, sem promessa mágica.\n\nO produto, o anúncio, a venda em dólar, o que deu certo e o que deu errado.\n\nA única prova que vale é a que você acompanha acontecendo.",
+   "cta": "Me segue pra acompanhar a saga desde o começo.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "AO VIVO, DE VERDADE",
+     "fala": "Enquanto o guru mostra Ferrari alugada, eu tô montando uma loja ao vivo.",
+     "prompt": "Infográfico: comparação lado a lado. Esquerda: card cinza com ícone de carro de luxo e relógio, rótulo \"GURU\" com um X. Direita: card verde com ícone de notebook/loja, rótulo \"AO VIVO, DE VERDADE\" com check. Título: \"PROVA REAL x SÓ CONVERSA\"."
+    },
+    {
+     "n": 2,
+     "tela": "SEM FILTRO",
+     "fala": "Sem edição bonita, sem promessa mágica.",
+     "prompt": "Infográfico: ícone de câmera de vídeo com etiqueta \"SEM FILTRO\" e, ao lado, um ícone de varinha mágica riscada com etiqueta \"sem promessa mágica\". Título: \"CRU E REAL\"."
+    },
+    {
+     "n": 3,
+     "tela": "TUDO À VISTA",
+     "fala": "O produto, o anúncio, a venda em dólar, o que deu certo e o que deu errado.",
+     "prompt": "Infográfico: grade de 4 mini-cards com ícone e rótulo: \"Produto\" (caixa), \"Anúncio\" (megafone), \"Venda US$\" (cifrão verde), \"Acertos e erros\" (um check e um X). Título: \"TUDO À VISTA\"."
+    },
+    {
+     "n": 4,
+     "tela": "PROVA REAL",
+     "fala": "A única prova que vale é a que você acompanha acontecendo.",
+     "prompt": "Infográfico: um selo/ícone de transmissão ao vivo (bolinha vermelha \"LIVE\") sobre um gráfico de linha verde subindo. Título: \"A PROVA QUE VOCÊ ACOMPANHA\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Me segue pra acompanhar a saga desde o começo.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\" e a etiqueta \"a saga da loja global\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "A7",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-b1",
+   "lote": "Split-screen",
+   "titulo": "Não sei nem por onde começar",
+   "formato": "Split-screen com infográfico",
+   "gancho": "Empaca no 'não sei nem por onde'? O problema não é você.",
+   "corpo": "Parece um monstro porque você tenta ver tudo de uma vez.\n\nO começo é simples: loja básica, um produto pra validar, grana pra testar.\n\nVocê não precisa saber tudo. Só o próximo passo.",
+   "cta": "Me segue que eu posto o passo a passo, de graça.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "NÃO É VOCÊ",
+     "fala": "Empaca no 'não sei nem por onde'? O problema não é você.",
+     "prompt": "Infográfico: ícone de pessoa (linha) diante de uma placa com muitas setas apontando pra todo lado (confusão), com um balão \"NÃO SEI POR ONDE\". Título: \"TRAVOU NO COMEÇO? NÃO É VOCÊ.\"."
+    },
+    {
+     "n": 2,
+     "tela": "PARECE UM MONSTRO",
+     "fala": "Parece um monstro porque você tenta ver tudo de uma vez.",
+     "prompt": "Infográfico: um emaranhado bagunçado de linhas e ícones (loja, produto, tráfego, fornecedor) todos misturados, passando sensação de caos. Título: \"PARECE UM MONSTRO\"."
+    },
+    {
+     "n": 3,
+     "tela": "3 PASSOS",
+     "fala": "O começo é simples: loja básica, um produto pra validar, grana pra testar.",
+     "prompt": "Infográfico: três cards numerados em sequência com seta verde entre eles: \"1. Loja básica\", \"2. 1 produto pra validar\", \"3. Grana pra testar\". Organizado e limpo. Título: \"NA VERDADE SÃO SÓ 3 PASSOS\"."
+    },
+    {
+     "n": 4,
+     "tela": "SÓ O PRÓXIMO PASSO",
+     "fala": "Você não precisa saber tudo. Só o próximo passo.",
+     "prompt": "Infográfico: uma escada simples com vários degraus e uma seta verde subindo só pro PRÓXIMO degrau (destacado em verde). Título: \"SÓ O PRÓXIMO PASSO\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Me segue que eu posto o passo a passo, de graça.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "B1",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-b2",
+   "lote": "Split-screen",
+   "titulo": "O domingo à noite (sair do CLT)",
+   "formato": "Split-screen com infográfico",
+   "gancho": "'Preciso sair do CLT.' Se você já falou isso num domingo à noite...",
+   "corpo": "Você acorda cansado, faz os outros ricos, e o salário some.\n\nFazer mais hora extra só te deixa mais cansado no mesmo lugar.\n\nUma loja que vende pro mundo enquanto você dorme.",
+   "cta": "Me segue que eu te ensino a construir isso do zero.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "DOMINGO À NOITE",
+     "fala": "'Preciso sair do CLT.' Se você já falou isso num domingo à noite...",
+     "prompt": "Infográfico: ícone de calendário com o \"Domingo\" destacado e um ícone de relógio marcando a noite, com um pequeno ícone de nó/aperto no peito. Estilo claro, mas tom mais sóbrio. Título: \"A ANGÚSTIA DE DOMINGO À NOITE\"."
+    },
+    {
+     "n": 2,
+     "tela": "SEGUNDA DE NOVO",
+     "fala": "Você acorda cansado, faz os outros ricos, e o salário some.",
+     "prompt": "Infográfico: um ciclo circular com 3 ícones e setas ligando em loop: despertador → prédio/trabalho → carteira vazia, voltando ao início. Título: \"O CICLO QUE NÃO MUDA\"."
+    },
+    {
+     "n": 3,
+     "tela": "(sem texto)",
+     "fala": "Fazer mais hora extra só te deixa mais cansado no mesmo lugar.",
+     "prompt": "Infográfico: ícone de pessoa numa esteira/roda de hamster correndo sem sair do lugar, com etiqueta \"+ horas\". Título: \"MAIS HORAS, MESMO LUGAR\"."
+    },
+    {
+     "n": 4,
+     "tela": "VENDE DORMINDO",
+     "fala": "Uma loja que vende pro mundo enquanto você dorme.",
+     "prompt": "Infográfico: ícone de lua/noite ao lado de um celular mostrando uma notificação de venda verde \"Novo pedido\" pingando. Título: \"UMA LOJA QUE VENDE DORMINDO\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Me segue que eu te ensino a construir isso do zero.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "B2",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-b3",
+   "lote": "Split-screen",
+   "titulo": "Não vou te pedir pra confiar em mais um",
+   "formato": "Split-screen com infográfico",
+   "gancho": "Eu não vou te pedir pra confiar em mais um. Vou te pedir o contrário.",
+   "corpo": "Desconfia de mim. Cobra prova. Você já foi enganado demais.\n\nProva não é discurso, é operação rodando na tua frente.\n\nMe acompanha de graça e julga com os teus próprios olhos.",
+   "cta": "Me segue. Sem link na bio, sem venda, só conteúdo real.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "NÃO CONFIA EM MIM",
+     "fala": "Eu não vou te pedir pra confiar em mais um. Vou te pedir o contrário.",
+     "prompt": "Infográfico: ícone de aperto de mãos com um ponto de interrogação em cima e a frase \"NÃO CONFIA EM MIM\". Título: \"NÃO VOU TE PEDIR CONFIANÇA\"."
+    },
+    {
+     "n": 2,
+     "tela": "DESCONFIA",
+     "fala": "Desconfia de mim. Cobra prova. Você já foi enganado demais.",
+     "prompt": "Infográfico: ícone de lupa examinando um documento, com etiqueta \"COBRA PROVA\". Título: \"PODE DESCONFIAR.\"."
+    },
+    {
+     "n": 3,
+     "tela": "PROVA = OPERAÇÃO",
+     "fala": "Prova não é discurso, é operação rodando na tua frente.",
+     "prompt": "Infográfico: uma balança comparando dois lados. De um lado, \"PROMESSA\" (balão de fala, cinza, leve). Do outro, \"OPERAÇÃO RODANDO\" (engrenagem + gráfico verde, pesado). O lado da operação pesa mais e vence. Título: \"PROVA NÃO É DISCURSO\"."
+    },
+    {
+     "n": 4,
+     "tela": "JULGA POR VOCÊ",
+     "fala": "Me acompanha de graça e julga com os teus próprios olhos.",
+     "prompt": "Infográfico: ícone de olho verde com etiqueta \"JULGA COM TEUS OLHOS\" e um preço riscado \"R$ 0\" (de graça). Título: \"ACOMPANHA DE GRAÇA E JULGA\"."
+    },
+    {
+     "n": 5,
+     "tela": "@mendes.adss",
+     "fala": "Me segue. Sem link na bio, sem venda, só conteúdo real.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\" e a etiqueta \"sem link, sem venda\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "B3",
+   "grupo": "split"
+  },
+  {
+   "id": "sp-e1",
+   "lote": "Split-screen",
+   "titulo": "Os 3 erros que fazem 99% quebrarem",
+   "formato": "Split-screen com infográfico",
+   "gancho": "99% das pessoas que tentam drop global quebram, pelos mesmos 3 erros.",
+   "corpo": "Presta atenção pra não repetir nenhum deles.\n\nErro 1: copiar o criativo dos outros.\n\nErro 2: otimizar o que não importa.\n\nErro 3, o mais fatal: fazer tudo sozinho.\n\nArruma esses 3 e o jogo vira. Foi assim que essa loja fez 0 a 3 mil dólares.",
+   "cta": "Me segue que eu documento todo esse processo, de graça.",
+   "cenas": [
+    {
+     "n": 1,
+     "tela": "99% QUEBRAM",
+     "fala": "99% das pessoas que tentam drop global quebram, pelos mesmos 3 erros.",
+     "prompt": "Infográfico: um número gigante \"99%\" em destaque, ao lado de um gráfico de pizza mostrando 99% cinza (quebram) e uma fatia fina de 1% verde. Título: \"99% QUEBRAM NO DROP\"."
+    },
+    {
+     "n": 2,
+     "tela": "OS 3 ERROS",
+     "fala": "Presta atenção pra não repetir nenhum deles.",
+     "prompt": "Infográfico: três cards numerados 1, 2 e 3, cada um com um ícone de alerta (triângulo), como se fossem revelados em seguida. Título: \"OS 3 ERROS FATAIS\"."
+    },
+    {
+     "n": 3,
+     "tela": "1. CRIATIVO COPIADO",
+     "fala": "Erro 1: copiar o criativo dos outros.",
+     "prompt": "Infográfico: ícone de vários vídeos/anúncios idênticos empilhados (copy-paste), com um X vermelho suave. Um \"1\" grande e a etiqueta \"CRIATIVO COPIADO\". Título: \"ERRO 1\"."
+    },
+    {
+     "n": 4,
+     "tela": "2. MEXE NO ERRADO",
+     "fala": "Erro 2: otimizar o que não importa.",
+     "prompt": "Infográfico: à esquerda, uma mão mexendo na cor de um botão (detalhe pequeno, cinza); à direita, uma seta verde apontando pra um card \"OFERTA\" que está sendo ignorado. Um \"2\" grande. Título: \"ERRO 2: MEXE NO ERRADO\"."
+    },
+    {
+     "n": 5,
+     "tela": "3. TUDO SOZINHO",
+     "fala": "Erro 3, o mais fatal: fazer tudo sozinho.",
+     "prompt": "Infográfico: ícone de uma pessoa (linha) sozinha cercada por 5 tarefas ao redor, visivelmente sobrecarregada. Um \"3\" grande e a etiqueta \"TUDO SOZINHO\". Título: \"ERRO 3: SOZINHO\"."
+    },
+    {
+     "n": 6,
+     "tela": "PROVA REAL",
+     "fala": "Arruma esses 3 e o jogo vira. Foi assim que essa loja fez 0 a 3 mil dólares.",
+     "prompt": "Infográfico: gráfico de linha verde saindo de \"US$ 0\" e subindo forte até \"US$ 3.000\" em poucos dias. Título: \"ARRUMANDO OS 3: 0 → US$ 3 MIL\"."
+    },
+    {
+     "n": 7,
+     "tela": "@mendes.adss",
+     "fala": "Me segue que eu documento todo esse processo, de graça.",
+     "prompt": "Infográfico: card central com ícone de perfil e botão verde \"SEGUIR\" com sinal de +. Abaixo, \"@mendes.adss\". Fundo quadriculado."
+    }
+   ],
+   "codigo": "E1",
+   "grupo": "split"
+  },
+  {
+   "id": "nr-escritorio",
+   "lote": "Narrados (B-roll)",
+   "titulo": "Bastidor da empresa milionária",
+   "formato": "Narrados (com B-roll)",
+   "duracao": "~42s",
+   "gancho": "Eu e meu sócio estamos construindo uma empresa milionária no dropshipping global.",
+   "corpo": "Pra ter mais foco, a gente alugou esse escritório.\n\nHoje são duas lojas vendendo todos os dias. Olha só os últimos 7 dias.\n\nA melhor decisão que a gente tomou foi vender pros Estados Unidos e Reino Unido, onde o poder de compra é altíssimo.\n\nE hoje tá mais fácil que nunca vender pro mundo inteiro. A IA acelera tudo, é só plugar pagamento e fornecedor.",
+   "cta": "Quer construir uma operação de dropshipping global e ter um negócio que gera renda todo mês? Me segue, todo dia eu mostro isso aqui.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "0-6s",
+     "fala": "Eu e meu sócio estamos construindo uma empresa milionária no dropshipping global.",
+     "cena": "Os dois entrando no escritório, plano aberto e imponente, câmera em movimento lento.",
+     "tela": "O bastidor de uma operação que vende em dólar todo dia"
+    },
+    {
+     "n": 2,
+     "tempo": "6-12s",
+     "fala": "Pra ter mais foco, a gente alugou esse escritório.",
+     "cena": "Tour rápido do espaço, vocês sentando pra trabalhar. Cortes no ritmo.",
+     "tela": "nível: profissional"
+    },
+    {
+     "n": 3,
+     "tempo": "12-20s",
+     "fala": "Hoje são duas lojas vendendo todos os dias. Olha só os últimos 7 dias.",
+     "cena": "Close no dashboard Shopify, zoom no número de faturamento.",
+     "tela": "Últimos 7 dias → (número)"
+    },
+    {
+     "n": 4,
+     "tempo": "20-29s",
+     "fala": "A melhor decisão que a gente tomou foi vender pros Estados Unidos e Reino Unido, onde o poder de compra é altíssimo.",
+     "cena": "Tela de pedidos internacionais, bandeiras EUA/UK, símbolo de dólar e libra.",
+     "tela": "em dólar · em libra"
+    },
+    {
+     "n": 5,
+     "tempo": "29-36s",
+     "fala": "E hoje tá mais fácil que nunca vender pro mundo inteiro. A IA acelera tudo, é só plugar pagamento e fornecedor.",
+     "cena": "Vocês dois na tela montando a loja, cortes rápidos de IA / Shopify / gateway.",
+     "tela": "IA + pagamento + fornecedor"
+    },
+    {
+     "n": 6,
+     "tempo": "36-42s",
+     "fala": "Quer construir uma operação de dropshipping global e ter um negócio que gera renda todo mês? Me segue, todo dia eu mostro isso aqui.",
+     "cena": "Você olhando pra câmera (fecha na conexão).",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-trafego",
+   "lote": "Narrados (B-roll)",
+   "titulo": "Gestor de tráfego",
+   "formato": "Narrados (com B-roll)",
+   "duracao": "~43s",
+   "gancho": "Isso aqui é pra você que vive de gestão de tráfego.",
+   "corpo": "Eu sei que você não aguenta mais lidar com cliente. Entrega resultado, e ainda tem que cobrar, explicar e segurar a mão dele. E no fim, o negócio é dos outros, não é teu.\n\nEsse vídeo é pra te mostrar que dá pra usar essa mesma habilidade do teu lado.\n\nEu tenho uma operação de dropshipping global. Vendo pros principais mercados do mundo, Estados Unidos e Reino Unido, em dólar.\n\nE o motor disso é tráfego, exatamente o que você já domina. Pluga tua skill nesse modelo e, em vez de escalar a conta dos outros, você escala a tua. Para de trocar tempo por dinheiro e constrói um ativo teu.",
+   "cta": "Quer aprender a construir essa operação no global? Me segue, todo dia eu falo disso aqui.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "0-5s",
+     "fala": "Isso aqui é pra você que vive de gestão de tráfego.",
+     "cena": "Você falando pra câmera, direto.",
+     "tela": "Pra você, gestor de tráfego"
+    },
+    {
+     "n": 2,
+     "tempo": "5-15s",
+     "fala": "Eu sei que você não aguenta mais lidar com cliente. Entrega resultado, e ainda tem que cobrar, explicar e segurar a mão dele. E no fim, o negócio é dos outros, não é teu.",
+     "cena": "B-roll de frustração / notebook, mensagens de cliente.",
+     "tela": "cansado de trabalhar pros outros?"
+    },
+    {
+     "n": 3,
+     "tempo": "15-22s",
+     "fala": "Esse vídeo é pra te mostrar que dá pra usar essa mesma habilidade do teu lado.",
+     "cena": "Virada visual, você no escritório.",
+     "tela": ""
+    },
+    {
+     "n": 4,
+     "tempo": "22-31s",
+     "fala": "Eu tenho uma operação de dropshipping global. Vendo pros principais mercados do mundo, Estados Unidos e Reino Unido, em dólar.",
+     "cena": "Dashboard de vendas, bandeiras, dólar.",
+     "tela": "em dólar"
+    },
+    {
+     "n": 5,
+     "tempo": "31-38s",
+     "fala": "E o motor disso é tráfego, exatamente o que você já domina. Pluga tua skill nesse modelo e, em vez de escalar a conta dos outros, você escala a tua. Para de trocar tempo por dinheiro e constrói um ativo teu.",
+     "cena": "Você + tela, montando campanha.",
+     "tela": "escala o TEU, não o dos outros"
+    },
+    {
+     "n": 6,
+     "tempo": "38-43s",
+     "fala": "Quer aprender a construir essa operação no global? Me segue, todo dia eu falo disso aqui.",
+     "cena": "Você pra câmera.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-infoproduto",
+   "lote": "Narrados (B-roll)",
+   "titulo": "Infoprodutor",
+   "formato": "Narrados (com B-roll)",
+   "duracao": "~43s",
+   "gancho": "Isso é pra você que trabalha com infoproduto.",
+   "corpo": "Você já sabe vender no digital. Mas vive na montanha-russa do lançamento: um mês fatura alto, no outro zera. E tudo depende de você aparecer, gravar, manter audiência.\n\nEsse vídeo é pra te mostrar um modelo com caixa entrando todo dia.\n\nEu tenho uma operação de dropshipping global, vendendo produto físico pros Estados Unidos e Reino Unido, em dólar.\n\nVocê já tem a parte mais difícil, que é saber vender. Pluga isso num produto físico que vende sem depender de lançamento nem de audiência, e você pega esse modelo voando.",
+   "cta": "Quer aprender a construir isso no mercado global? Me segue, todo dia produzo conteúdo sobre isso.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "0-5s",
+     "fala": "Isso é pra você que trabalha com infoproduto.",
+     "cena": "Você pra câmera.",
+     "tela": "Pra você, do infoproduto"
+    },
+    {
+     "n": 2,
+     "tempo": "5-15s",
+     "fala": "Você já sabe vender no digital. Mas vive na montanha-russa do lançamento: um mês fatura alto, no outro zera. E tudo depende de você aparecer, gravar, manter audiência.",
+     "cena": "B-roll de gráfico oscilando, gravação, cansaço.",
+     "tela": "um mês bomba, no outro zera"
+    },
+    {
+     "n": 3,
+     "tempo": "15-22s",
+     "fala": "Esse vídeo é pra te mostrar um modelo com caixa entrando todo dia.",
+     "cena": "Virada, dashboard com vendas diárias.",
+     "tela": "caixa todo dia"
+    },
+    {
+     "n": 4,
+     "tempo": "22-31s",
+     "fala": "Eu tenho uma operação de dropshipping global, vendendo produto físico pros Estados Unidos e Reino Unido, em dólar.",
+     "cena": "Produto, pedidos internacionais, dólar.",
+     "tela": "produto físico · em dólar"
+    },
+    {
+     "n": 5,
+     "tempo": "31-38s",
+     "fala": "Você já tem a parte mais difícil, que é saber vender. Pluga isso num produto físico que vende sem depender de lançamento nem de audiência, e você pega esse modelo voando.",
+     "cena": "Você + tela.",
+     "tela": "sem lançamento, sem depender de audiência"
+    },
+    {
+     "n": 6,
+     "tempo": "38-43s",
+     "fala": "Quer aprender a construir isso no mercado global? Me segue, todo dia produzo conteúdo sobre isso.",
+     "cena": "Você pra câmera.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-dropbr",
+   "lote": "Narrados (B-roll)",
+   "titulo": "Quem já faz drop no Brasil",
+   "formato": "Narrados (com B-roll)",
+   "duracao": "~40s",
+   "gancho": "Eu sei que você faz dropshipping aqui no Brasil.",
+   "corpo": "A melhor decisão que eu tomei nos últimos anos foi tirar minha operação do Brasil e levar pro mercado global.\n\nHoje são duas lojas vendendo todos os dias. Faturando mais, trabalhando menos e com muito menos dor de cabeça.\n\nPra você ter ideia: eu vendo menos e faturo mais. Mesmo produto, mesma estrutura. A única coisa que muda é o mercado.",
+   "cta": "Se você quer sair do mercado brasileiro e construir uma operação global, me segue. Todo dia eu falo disso aqui.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "0-5s",
+     "fala": "Eu sei que você faz dropshipping aqui no Brasil.",
+     "cena": "Você pra câmera, direto.",
+     "tela": "Pra você que faz drop no Brasil"
+    },
+    {
+     "n": 2,
+     "tempo": "5-13s",
+     "fala": "A melhor decisão que eu tomei nos últimos anos foi tirar minha operação do Brasil e levar pro mercado global.",
+     "cena": "B-roll do escritório, mapa/mundo.",
+     "tela": "Brasil → Global"
+    },
+    {
+     "n": 3,
+     "tempo": "13-22s",
+     "fala": "Hoje são duas lojas vendendo todos os dias. Faturando mais, trabalhando menos e com muito menos dor de cabeça.",
+     "cena": "Dashboard de vendas, rotina leve no escritório.",
+     "tela": "+ dinheiro · − trabalho"
+    },
+    {
+     "n": 4,
+     "tempo": "22-32s",
+     "fala": "Pra você ter ideia: eu vendo menos e faturo mais. Mesmo produto, mesma estrutura. A única coisa que muda é o mercado.",
+     "cena": "Comparação visual BR x Global, símbolo de dólar. Segura o número.",
+     "tela": "Vendo MENOS e faturo MAIS"
+    },
+    {
+     "n": 5,
+     "tempo": "32-40s",
+     "fala": "Se você quer sair do mercado brasileiro e construir uma operação global, me segue. Todo dia eu falo disso aqui.",
+     "cena": "Você pra câmera.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-cod",
+   "lote": "Narrados (B-roll)",
+   "titulo": "Contra-entrega (COD)",
+   "formato": "Narrados (com B-roll)",
+   "duracao": "~48s",
+   "gancho": "Fala sério que você ainda tá rodando drop de contra-entrega.",
+   "corpo": "Esse é um dos piores modelos que existe no drop. E eu falo porque já tentei, e conheço muita gente que se ferrou nisso.\n\nVocê paga o produto e o frete adiantado e fica na mão do cliente. Se ele não recebe, devolve ou some, o prejuízo é todo teu.\n\nO melhor modelo hoje é vender no global, pros Estados Unidos e Reino Unido, em dólar. Público com poder de compra alto, entrega rápida e muito menos concorrência.\n\nE a maior vantagem: o cliente paga antes. Você recebe o dinheiro primeiro e só depois compra e envia. Zero risco de calote.",
+   "cta": "Quer aprender a construir uma operação global? Me segue, todo dia eu falo sobre isso aqui.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "0-5s",
+     "fala": "Fala sério que você ainda tá rodando drop de contra-entrega.",
+     "cena": "Você pra câmera, expressão de \"sério mesmo?\".",
+     "tela": "Contra-entrega? Sério?"
+    },
+    {
+     "n": 2,
+     "tempo": "5-13s",
+     "fala": "Esse é um dos piores modelos que existe no drop. E eu falo porque já tentei, e conheço muita gente que se ferrou nisso.",
+     "cena": "B-roll você falando, tom de conselho.",
+     "tela": "eu já tentei. não vale a pena"
+    },
+    {
+     "n": 3,
+     "tempo": "13-23s",
+     "fala": "Você paga o produto e o frete adiantado e fica na mão do cliente. Se ele não recebe, devolve ou some, o prejuízo é todo teu.",
+     "cena": "B-roll de caixa/devolução, dinheiro saindo.",
+     "tela": "o prejuízo é todo seu"
+    },
+    {
+     "n": 4,
+     "tempo": "23-33s",
+     "fala": "O melhor modelo hoje é vender no global, pros Estados Unidos e Reino Unido, em dólar. Público com poder de compra alto, entrega rápida e muito menos concorrência.",
+     "cena": "Dashboard, bandeiras, dólar.",
+     "tela": "vender no global · em dólar"
+    },
+    {
+     "n": 5,
+     "tempo": "33-42s",
+     "fala": "E a maior vantagem: o cliente paga antes. Você recebe o dinheiro primeiro e só depois compra e envia. Zero risco de calote.",
+     "cena": "Close numa notificação de pagamento entrando.",
+     "tela": "recebe ANTES de comprar o produto"
+    },
+    {
+     "n": 6,
+     "tempo": "42-48s",
+     "fala": "Quer aprender a construir uma operação global? Me segue, todo dia eu falo sobre isso aqui.",
+     "cena": "Você pra câmera.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-curso",
+   "lote": "Narrados (B-roll)",
+   "titulo": "O curso que te abandonou",
+   "formato": "Talking head (dor)",
+   "duracao": "~50s",
+   "gancho": "O problema não é você. Te venderam um curso e sumiram.",
+   "corpo": "Você comprou. Prometeram te acompanhar até o resultado. Aí o dinheiro caiu na conta deles e o suporte nunca mais respondeu.\n\nUm PDF, um grupo de telegram com 3 mil pessoas, e você sozinho. Travou e ainda achou que o burro era você.\n\nNão era. Ninguém aprende a vender na gringa abandonado num grupo lotado. Você não precisava de mais um curso. Precisava de alguém olhando a SUA loja.",
+   "cta": "É isso que eu mostro aqui todo dia. Me segue.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "HOOK",
+     "fala": "O problema não é você. Te venderam um curso e sumiram.",
+     "cena": "Talking head, direto na câmera.",
+     "tela": "Você não falhou. Te largaram."
+    },
+    {
+     "n": 2,
+     "tempo": "DESENV.",
+     "fala": "Você comprou. Prometeram te acompanhar até o resultado. Aí o dinheiro caiu na conta deles e o suporte nunca mais respondeu.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 3,
+     "tempo": "DESENV.",
+     "fala": "Um PDF, um grupo de telegram com 3 mil pessoas, e você sozinho. Travou e ainda achou que o burro era você.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 4,
+     "tempo": "VIRADA",
+     "fala": "Não era. Ninguém aprende a vender na gringa abandonado num grupo lotado. Você não precisava de mais um curso. Precisava de alguém olhando a SUA loja.",
+     "cena": "Talking head, tom firme.",
+     "tela": ""
+    },
+    {
+     "n": 5,
+     "tempo": "CTA",
+     "fala": "É isso que eu mostro aqui todo dia. Me segue.",
+     "cena": "Talking head.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-travado",
+   "lote": "Narrados (B-roll)",
+   "titulo": "Você não tá travado por burrice",
+   "formato": "Talking head (dor)",
+   "duracao": "~48s",
+   "gancho": "Você não tá travado porque é burro. Tá travado porque tá sozinho.",
+   "corpo": "Muita ideia na cabeça e nada sai do lugar. Eu conheço essa sensação.\n\nVocê abre a loja e trava no produto. Trava no tráfego. Trava no preço. Fica assistindo mil vídeos e no fim não faz nada.\n\nNão é falta de capacidade. É falta de direção. Com alguém do teu lado dizendo faz isso agora, você destrava em uma semana o que te segura há um ano.",
+   "cta": "Me segue. Aqui eu tiro gente do lugar todo dia.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "HOOK",
+     "fala": "Você não tá travado porque é burro. Tá travado porque tá sozinho.",
+     "cena": "Talking head, direto.",
+     "tela": "Travado ≠ incapaz"
+    },
+    {
+     "n": 2,
+     "tempo": "DESENV.",
+     "fala": "Muita ideia na cabeça e nada sai do lugar. Eu conheço essa sensação.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 3,
+     "tempo": "DESENV.",
+     "fala": "Você abre a loja e trava no produto. Trava no tráfego. Trava no preço. Fica assistindo mil vídeos e no fim não faz nada.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 4,
+     "tempo": "VIRADA",
+     "fala": "Não é falta de capacidade. É falta de direção. Com alguém do teu lado dizendo faz isso agora, você destrava em uma semana o que te segura há um ano.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 5,
+     "tempo": "CTA",
+     "fala": "Me segue. Aqui eu tiro gente do lugar todo dia.",
+     "cena": "Talking head.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-apertado",
+   "lote": "Narrados (B-roll)",
+   "titulo": "Dá pra começar apertado",
+   "formato": "Talking head (dor)",
+   "duracao": "~48s",
+   "gancho": "Você não precisa de 50 mil pra começar. Eu comecei com um cartão pagando a fatura do outro.",
+   "corpo": "É sério. Eu anunciava, o cartão fechava, eu pagava a fatura com o outro cartão até virar.\n\nTodo mundo acha que precisa de muito dinheiro pra começar no global. Mentira. Começa com o básico, feijão com arroz bem feito.\n\nTeu objetivo no começo não é ficar rico. É a primeira venda, pra ver que é possível. Quem fica esperando ter 20 mil no bolso nunca começa.",
+   "cta": "Me segue que eu mostro como começar com pouco e sem se enganar.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "HOOK",
+     "fala": "Você não precisa de 50 mil pra começar. Eu comecei com um cartão pagando a fatura do outro.",
+     "cena": "Talking head, tom de confissão.",
+     "tela": "Comecei quebrado"
+    },
+    {
+     "n": 2,
+     "tempo": "DESENV.",
+     "fala": "É sério. Eu anunciava, o cartão fechava, eu pagava a fatura com o outro cartão até virar.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 3,
+     "tempo": "DESENV.",
+     "fala": "Todo mundo acha que precisa de muito dinheiro pra começar no global. Mentira. Começa com o básico, feijão com arroz bem feito.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 4,
+     "tempo": "VIRADA",
+     "fala": "Teu objetivo no começo não é ficar rico. É a primeira venda, pra ver que é possível. Quem fica esperando ter 20 mil no bolso nunca começa.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 5,
+     "tempo": "CTA",
+     "fala": "Me segue que eu mostro como começar com pouco e sem se enganar.",
+     "cena": "Talking head.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-dezmil",
+   "lote": "Narrados (B-roll)",
+   "titulo": "10k/mês já muda tua vida",
+   "formato": "Talking head (dor)",
+   "duracao": "~48s",
+   "gancho": "Esquece o milhão. 10 mil por mês já te tira do sufoco.",
+   "corpo": "Todo guru te promete ficar milionário. E isso te trava, porque parece longe demais.\n\nMas para a tua vida hoje, 10 mil por mês já muda tudo. É largar o CLT. É não olhar preço no mercado. É dormir tranquilo.\n\nE no drop global, 10k por mês é o começo. Não é o teto. Não precisa de audiência, não precisa aparecer. Precisa do modelo certo.",
+   "cta": "Me segue que eu mostro o modelo por aqui.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "HOOK",
+     "fala": "Esquece o milhão. 10 mil por mês já te tira do sufoco.",
+     "cena": "Talking head.",
+     "tela": "Esquece o milhão"
+    },
+    {
+     "n": 2,
+     "tempo": "DESENV.",
+     "fala": "Todo guru te promete ficar milionário. E isso te trava, porque parece longe demais.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 3,
+     "tempo": "DESENV.",
+     "fala": "Mas para a tua vida hoje, 10 mil por mês já muda tudo. É largar o CLT. É não olhar preço no mercado. É dormir tranquilo.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 4,
+     "tempo": "VIRADA",
+     "fala": "E no drop global, 10k por mês é o começo. Não é o teto. Não precisa de audiência, não precisa aparecer. Precisa do modelo certo.",
+     "cena": "Talking head. [INSERIR DADO REAL: X vendas/dia de um produto de Y dólares]",
+     "tela": ""
+    },
+    {
+     "n": 5,
+     "tempo": "CTA",
+     "fala": "Me segue que eu mostro o modelo por aqui.",
+     "cena": "Talking head.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  },
+  {
+   "id": "nr-dolar",
+   "lote": "Narrados (B-roll)",
+   "titulo": "Ganhar em dólar morando no BR",
+   "formato": "Talking head (dor)",
+   "duracao": "~48s",
+   "gancho": "Dois caras, o mesmo trabalho. Um ganha em real, o outro em dólar.",
+   "corpo": "Enquanto um briga por margem de 8 reais no drop nacional, o outro vende o mesmo produto nos Estados Unidos, no Reino Unido, na Austrália.\n\nMesma loja. Mesmo esforço na frente do computador. Moeda cinco vezes mais forte.\n\nE esquece contra-entrega, cliente que some, produto devolvido. Lá o cara paga primeiro. O Brasil tá saturado. Lá fora é mar azul.",
+   "cta": "Quer entender como funciona? Me segue, é o que eu posto aqui.",
+   "cenas": [
+    {
+     "n": 1,
+     "tempo": "HOOK",
+     "fala": "Dois caras, o mesmo trabalho. Um ganha em real, o outro em dólar.",
+     "cena": "Talking head.",
+     "tela": "mesmo trabalho, outra moeda"
+    },
+    {
+     "n": 2,
+     "tempo": "DESENV.",
+     "fala": "Enquanto um briga por margem de 8 reais no drop nacional, o outro vende o mesmo produto nos Estados Unidos, no Reino Unido, na Austrália.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 3,
+     "tempo": "DESENV.",
+     "fala": "Mesma loja. Mesmo esforço na frente do computador. Moeda cinco vezes mais forte.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 4,
+     "tempo": "VIRADA",
+     "fala": "E esquece contra-entrega, cliente que some, produto devolvido. Lá o cara paga primeiro. O Brasil tá saturado. Lá fora é mar azul.",
+     "cena": "Talking head.",
+     "tela": ""
+    },
+    {
+     "n": 5,
+     "tempo": "CTA",
+     "fala": "Quer entender como funciona? Me segue, é o que eu posto aqui.",
+     "cena": "Talking head.",
+     "tela": "Me segue @mendes.adss"
+    }
+   ],
+   "grupo": "narrado"
+  }
+ ]
+}
