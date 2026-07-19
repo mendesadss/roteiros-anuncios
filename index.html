@@ -185,14 +185,18 @@
     <div class="ctrl-row" id="filtros"></div>
   </div>
 
+  <div id="aviso-sync" style="display:none;background:#1a1509;border:1px solid #4a3d15;border-left:3px solid #D8A13A;border-radius:10px;padding:14px 18px;margin:18px 0;font-size:14px;color:#D9C89A;line-height:1.6">
+    <b style="color:#F0DFA8">Este aparelho não está sincronizado.</b><br>
+    O que você marcar aqui fica só neste aparelho. Toque em <b>Conectar ao GitHub</b> no fim da página pra valer em todos.
+  </div>
   <div id="lista"><div class="vazio">Carregando...</div></div>
 
   <div class="nota" id="box-sync" style="display:none">
-    <div class="t">Sincronizacao com o GitHub</div>
+    <div class="t">Sincronização com o GitHub</div>
     <p id="sync-estado">...</p>
 
     <div id="sync-sem-token">
-      <p style="margin-top:10px">Pra marcacao de gravado valer em todo aparelho (e o Claude enxergar), cole aqui um <b>token do GitHub</b> com permissao de escrita neste repositorio.</p>
+      <p style="margin-top:10px">Pra a marcação de gravado valer em todo aparelho (e o Claude enxergar), cole aqui um <b>token do GitHub</b> com permissão de escrita neste repositório.</p>
       <input class="sync" id="tok" type="password" placeholder="Toque em Colar, ou cole aqui o github_pat_..." style="min-height:auto;padding:11px 12px" autocomplete="off">
       <div class="acoes">
         <button class="bt" id="tok-colar">Colar</button>
@@ -200,20 +204,20 @@
         <button class="bt prim" id="tok-salvar">Conectar</button>
         <a class="bt" href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener" style="text-decoration:none;display:inline-block">Gerar token</a>
       </div>
-      <p class="dica">Fine-grained token &middot; Repository access: so os bancos de roteiro &middot; Permissions: <b>Contents = Read and write</b></p>
+      <p class="dica">Fine-grained token &middot; Repository access: só os bancos de roteiro &middot; Permissions: <b>Contents = Read and write</b></p>
     </div>
 
     <div id="sync-com-token" style="display:none">
       <div class="acoes">
         <button class="bt prim" id="sync-agora">Enviar agora</button>
-        <button class="bt" id="tok-testar">Testar conexao</button>
+        <button class="bt" id="tok-testar">Testar conexão</button>
         <button class="reset" id="tok-sair">Desconectar</button>
       </div>
     </div>
 
     <p id="sync-msg" class="dica"></p>
     <details style="margin-top:14px">
-      <summary style="cursor:pointer;font-size:12px;color:#7a7a7a">Envio manual e zerar</summary>
+      <summary style="cursor:pointer;font-size:12px;color:#7a7a7a">Envio manual e zerar tudo</summary>
       <textarea class="sync" id="sync-txt" readonly></textarea>
       <div class="acoes">
         <button class="bt" id="sync-copy">Copiar lista</button>
@@ -223,9 +227,9 @@
   </div>
 
   <footer>
-    <p>Roteiros de Anuncio, Global Brand &middot; <span id="f-atualizado"></span></p>
+    <p>Roteiros de Anúncio, Global Brand &middot; <span id="f-atualizado"></span></p>
     <p style="margin-top:6px"><span class="bolinha" id="bol"></span><span id="f-sync">...</span></p>
-    <p style="margin-top:10px"><button class="reset" id="abrir-sync">Sincronizacao</button></p>
+    <p style="margin-top:10px"><button class="reset" id="abrir-sync">Sincronização</button></p>
   </footer>
 </div>
 
@@ -460,6 +464,7 @@ function montarFiltros(){
 }
 
 /* ---------- sincronizacao com o GitHub ---------- */
+let jaAbriu = false;
 function pintarStatus(s){
   const b = document.getElementById('bol');
   if (b) b.className = 'bolinha ' + s.estado;
@@ -468,7 +473,16 @@ function pintarStatus(s){
   const e = document.getElementById('sync-estado');
   if (e) e.textContent = s.txt;
   const st = document.getElementById('sync-sem-token'), ct = document.getElementById('sync-com-token');
-  if (st && ct){ const t = SYNC.temToken(); st.style.display = t ? 'none' : 'block'; ct.style.display = t ? 'block' : 'none'; }
+  const temToken = SYNC.temToken();
+  if (st && ct){ st.style.display = temToken ? 'none' : 'block'; ct.style.display = temToken ? 'block' : 'none'; }
+
+  // sem token o painel abre sozinho, e o botao do rodape fica verde chamando
+  const bt = document.getElementById('abrir-sync'), box = document.getElementById('box-sync');
+  if (bt){
+    bt.textContent = temToken ? 'Sincronização' : 'Conectar ao GitHub';
+    bt.className = temToken ? 'reset' : 'bt prim';
+  }
+  if (box && !temToken && !jaAbriu){ box.style.display = 'block'; jaAbriu = true; }
 }
 function migrarChecklistAntigo(){
   try {
@@ -477,7 +491,7 @@ function migrarChecklistAntigo(){
     const ids = Object.keys(velho).filter(id => !feitos[id]);
     ids.forEach(id => { feitos[id] = new Date().toISOString().slice(0,10); SYNC.marcar(id, true); });
     localStorage.setItem(MIGKEY, '1');
-    if (ids.length) setTimeout(() => toast(ids.length + ' marcacoes antigas enviadas'), 900);
+    if (ids.length) setTimeout(() => toast(ids.length + ' marcações antigas enviadas'), 900);
   } catch(e){}
 }
 function msg(t, ok){
@@ -488,16 +502,16 @@ document.getElementById('tok-colar').addEventListener('click', () => {
   const campo = document.getElementById('tok');
   if (!navigator.clipboard || !navigator.clipboard.readText){
     campo.focus();
-    return msg('Este navegador nao deixa colar por botao. Toque no campo e segure pra colar.', false);
+    return msg('Este navegador não deixa colar por botão. Toque no campo e segure pra colar.', false);
   }
   navigator.clipboard.readText().then(t => {
     const v = (t || '').trim();
-    if (!v) return msg('Area de transferencia vazia. Copie o token de novo.', false);
+    if (!v) return msg('Área de transferência vazia. Copie o token de novo.', false);
     campo.value = v;
     msg('Colado: ' + v.slice(0,12) + '... (' + v.length + ' caracteres). Agora toque em Conectar.', true);
   }).catch(() => {
     campo.focus();
-    msg('O navegador bloqueou a colagem automatica. Toque no campo e segure pra colar.', false);
+    msg('O navegador bloqueou a colagem automática. Toque no campo e segure pra colar.', false);
   });
 });
 document.getElementById('tok-ver').addEventListener('click', e => {
@@ -521,7 +535,7 @@ document.getElementById('tok-testar').addEventListener('click', () => {
   SYNC.testar().then(r => msg(r.msg, r.ok));
 });
 document.getElementById('tok-sair').addEventListener('click', () => {
-  if (confirm('Desconectar? As marcacoes voltam a ficar so neste aparelho.')){ SYNC.apagarToken(); msg('Desconectado', true); }
+  if (confirm('Desconectar? As marcações voltam a ficar só neste aparelho.')){ SYNC.apagarToken(); msg('Desconectado', true); }
 });
 document.getElementById('sync-agora').addEventListener('click', () => {
   msg('Enviando...', true);
@@ -539,6 +553,9 @@ fetch('dados.json?v=' + Date.now())
     document.getElementById('h-obj').textContent = d.objetivo || '';
     document.getElementById('f-atualizado').textContent = 'atualizado em ' + d.atualizado;
     montarFiltros(); render();
+  const av = document.getElementById('aviso-sync');
+  if (av) av.style.display = SYNC.temToken() ? 'none' : 'block';
+
   })
   .catch(() => {
     document.getElementById('lista').innerHTML = '<div class="vazio">Não consegui carregar o dados.json.<br>Use o link publicado, não o arquivo local.</div>';
