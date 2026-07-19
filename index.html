@@ -136,6 +136,14 @@
   footer{border-top:1px solid var(--linha);margin-top:50px;padding-top:24px;font-size:12px;color:#5a5a5a}
   .reset{background:transparent;border:1px solid var(--linha);color:#666;border-radius:8px;padding:7px 13px;font-size:12px;cursor:pointer;font-family:inherit}
   .reset:hover{border-color:#8a2b2b;color:#c46b6b}
+  .dica{font-size:11px;color:#6f6f6f;margin-top:9px;line-height:1.55}
+  .dica b{color:#9a9a9a}
+  .bolinha{display:inline-block;width:8px;height:8px;border-radius:50%;background:#5a5a5a;margin-right:7px;vertical-align:middle}
+  .bolinha.ok{background:var(--verde-claro)}
+  .bolinha.pendente{background:#D8A13A}
+  .bolinha.enviando{background:#4A9EDB;animation:pulsa 1s infinite}
+  .bolinha.sem-token{background:#5a5a5a}
+  @keyframes pulsa{50%{opacity:.35}}
   @media(max-width:600px){.stat{min-width:calc(50% - 5px)}}
 </style>
 </head>
@@ -180,19 +188,42 @@
   <div id="lista"><div class="vazio">Carregando...</div></div>
 
   <div class="nota" id="box-sync" style="display:none">
-    <div class="t">Sincronizar com o Claude</div>
-    <p>Copia o bloco abaixo e manda no chat falando <b>"arquiva esses anúncios"</b>. Eu marco no dados.json e fica igual em qualquer aparelho.</p>
-    <textarea class="sync" id="sync-txt" readonly></textarea>
-    <div class="acoes">
-      <button class="bt prim" id="sync-copy">Copiar lista</button>
-      <button class="reset" id="reset">Zerar checkboxes</button>
+    <div class="t">Sincronizacao com o GitHub</div>
+    <p id="sync-estado">...</p>
+
+    <div id="sync-sem-token">
+      <p style="margin-top:10px">Pra marcacao de gravado valer em todo aparelho (e o Claude enxergar), cole aqui um <b>token do GitHub</b> com permissao de escrita neste repositorio.</p>
+      <input class="sync" id="tok" type="password" placeholder="github_pat_..." style="min-height:auto;padding:11px 12px" autocomplete="off">
+      <div class="acoes">
+        <button class="bt prim" id="tok-salvar">Conectar</button>
+        <a class="bt" href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener" style="text-decoration:none;display:inline-block">Gerar token</a>
+      </div>
+      <p class="dica">Fine-grained token &middot; Repository access: so os bancos de roteiro &middot; Permissions: <b>Contents = Read and write</b></p>
     </div>
+
+    <div id="sync-com-token" style="display:none">
+      <div class="acoes">
+        <button class="bt prim" id="sync-agora">Enviar agora</button>
+        <button class="bt" id="tok-testar">Testar conexao</button>
+        <button class="reset" id="tok-sair">Desconectar</button>
+      </div>
+    </div>
+
+    <p id="sync-msg" class="dica"></p>
+    <details style="margin-top:14px">
+      <summary style="cursor:pointer;font-size:12px;color:#7a7a7a">Envio manual e zerar</summary>
+      <textarea class="sync" id="sync-txt" readonly></textarea>
+      <div class="acoes">
+        <button class="bt" id="sync-copy">Copiar lista</button>
+        <button class="reset" id="reset">Zerar checkboxes</button>
+      </div>
+    </details>
   </div>
 
   <footer>
-    <p>Roteiros de Anúncio, Global Brand · <span id="f-atualizado"></span></p>
-    <p style="margin-top:6px">A marcação de gravado fica salva neste aparelho. Use "Sincronizar" pra tornar permanente.</p>
-    <p style="margin-top:10px"><button class="reset" id="abrir-sync">Sincronizar / Zerar</button></p>
+    <p>Roteiros de Anuncio, Global Brand &middot; <span id="f-atualizado"></span></p>
+    <p style="margin-top:6px"><span class="bolinha" id="bol"></span><span id="f-sync">...</span></p>
+    <p style="margin-top:10px"><button class="reset" id="abrir-sync">Sincronizacao</button></p>
   </footer>
 </div>
 
@@ -210,12 +241,12 @@
 
 <div class="copiado" id="toast">Copiado</div>
 
+<script src="sync.js"></script>
 <script>
 const KEY = 'gb_ads_gravados_v1';
+const MIGKEY = 'gb_migrado_' + 'roteiros-anuncios';
 const FKEY = 'gb_ads_fonte';
 let feitos = {};
-try { feitos = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e){ feitos = {}; }
-const salvar = () => { try { localStorage.setItem(KEY, JSON.stringify(feitos)); } catch(e){} };
 
 let D = null, aba = 'fala', filtro = 'todos', busca = '';
 const abertos = new Set();
@@ -383,8 +414,8 @@ document.getElementById('lista').addEventListener('click', e => {
 document.getElementById('lista').addEventListener('change', e => {
   if (e.target.type !== 'checkbox') return;
   const c = e.target.closest('.card'), id = c.dataset.id;
-  if (e.target.checked) feitos[id] = 1; else delete feitos[id];
-  salvar();
+  if (e.target.checked) feitos[id] = new Date().toISOString().slice(0,10); else delete feitos[id];
+  SYNC.marcar(id, e.target.checked);
   c.style.opacity = '0'; c.style.transform = 'translateX(10px)';
   setTimeout(render, 180);
 });
@@ -407,7 +438,10 @@ document.getElementById('abrir-sync').addEventListener('click', () => {
 });
 document.getElementById('sync-copy').addEventListener('click', () => copiar(document.getElementById('sync-txt').value, 'Lista copiada'));
 document.getElementById('reset').addEventListener('click', () => {
-  if (confirm('Isso desmarca TUDO. Continuar?')){ feitos = {}; salvar(); render(); }
+  if (confirm('Isso desmarca TUDO. Continuar?')){
+    Object.keys(feitos).forEach(id => SYNC.marcar(id, false));
+    feitos = {}; render();
+  }
 });
 
 function montarFiltros(){
@@ -423,10 +457,60 @@ function montarFiltros(){
   }));
 }
 
+/* ---------- sincronizacao com o GitHub ---------- */
+function pintarStatus(s){
+  const b = document.getElementById('bol');
+  if (b) b.className = 'bolinha ' + s.estado;
+  const f = document.getElementById('f-sync');
+  if (f) f.textContent = s.txt;
+  const e = document.getElementById('sync-estado');
+  if (e) e.textContent = s.txt;
+  const st = document.getElementById('sync-sem-token'), ct = document.getElementById('sync-com-token');
+  if (st && ct){ const t = SYNC.temToken(); st.style.display = t ? 'none' : 'block'; ct.style.display = t ? 'block' : 'none'; }
+}
+function migrarChecklistAntigo(){
+  try {
+    if (localStorage.getItem(MIGKEY)) return;
+    const velho = JSON.parse(localStorage.getItem(KEY) || '{}');
+    const ids = Object.keys(velho).filter(id => !feitos[id]);
+    ids.forEach(id => { feitos[id] = new Date().toISOString().slice(0,10); SYNC.marcar(id, true); });
+    localStorage.setItem(MIGKEY, '1');
+    if (ids.length) setTimeout(() => toast(ids.length + ' marcacoes antigas enviadas'), 900);
+  } catch(e){}
+}
+function msg(t, ok){
+  const m = document.getElementById('sync-msg');
+  if (m){ m.textContent = t; m.style.color = ok ? 'var(--verde-claro)' : '#C97B7B'; }
+}
+document.getElementById('tok-salvar').addEventListener('click', () => {
+  const v = document.getElementById('tok').value;
+  if (!v.trim()) return msg('Cole o token', false);
+  msg('Testando...', true);
+  SYNC.salvarToken(v).then(r => {
+    msg(r.msg, r.ok);
+    if (r.ok){ document.getElementById('tok').value = ''; migrarChecklistAntigo(); SYNC.forcar(); }
+    else SYNC.apagarToken();
+  });
+});
+document.getElementById('tok-testar').addEventListener('click', () => {
+  msg('Testando...', true);
+  SYNC.testar().then(r => msg(r.msg, r.ok));
+});
+document.getElementById('tok-sair').addEventListener('click', () => {
+  if (confirm('Desconectar? As marcacoes voltam a ficar so neste aparelho.')){ SYNC.apagarToken(); msg('Desconectado', true); }
+});
+document.getElementById('sync-agora').addEventListener('click', () => {
+  msg('Enviando...', true);
+  SYNC.forcar().then(() => msg(SYNC.status().n ? 'Ainda tem coisa na fila, vou tentar de novo' : 'Enviado', !SYNC.status().n));
+});
+
 fetch('dados.json?v=' + Date.now())
   .then(r => r.json())
   .then(d => {
     D = d;
+    SYNC.iniciar({ repo:'roteiros-anuncios', arquivo:'anuncios' }, pintarStatus);
+    feitos = SYNC.estadoInicial(d);
+    migrarChecklistAntigo();
     document.getElementById('h-sub').textContent = d.roteiros.length + ' roteiros · ' + d.lotes.length + ' lotes';
     document.getElementById('h-obj').textContent = d.objetivo || '';
     document.getElementById('f-atualizado').textContent = 'atualizado em ' + d.atualizado;

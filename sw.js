@@ -7,8 +7,8 @@
    até limpar o cache na mão. Conteúdo novo tem que aparecer na hora.
 
    Ao mudar arquivos do shell, subir o número da versão abaixo. */
-const CACHE = 'roteiros-ads-v1';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-maskable.svg'];
+const CACHE = 'roteiros-ads-v2';
+const SHELL = ['./', './index.html', './sync.js', './manifest.webmanifest', './icon.svg', './icon-maskable.svg'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -42,7 +42,7 @@ self.addEventListener('fetch', e => {
   if (url.origin !== location.origin) return;
 
   // navegação (abrir o app) e o HTML: sempre tenta a rede primeiro
-  if (e.request.mode === 'navigate' || url.pathname.endsWith('/') || url.pathname.endsWith('index.html')){
+  if (e.request.mode === 'navigate' || url.pathname.endsWith('/') || url.pathname.endsWith('index.html') || url.pathname.endsWith('sync.js')){
     e.respondWith(redePrimeiro(e.request, './index.html'));
     return;
   }
